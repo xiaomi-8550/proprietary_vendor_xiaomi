@@ -477,21 +477,21 @@
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>55</max_velocity_start>
                 <max_velocity_end>55</max_velocity_end>
-                <factor>15</factor>
+                <factor>7.5</factor>
             </fast_factor>
             <mid_factor>
                 <ratio_start>0.004</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>40</max_velocity_start>
                 <max_velocity_end>40</max_velocity_end>
-                <factor>15</factor>
+                <factor>7.5</factor>
             </mid_factor>
             <slow_factor>
                 <ratio_start>0.1</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>15</max_velocity_start>
                 <max_velocity_end>15</max_velocity_end>
-                <factor>10</factor>
+                <factor>5</factor>
             </slow_factor>
         </trigger>
         <trigger>
@@ -505,21 +505,21 @@
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>55</max_velocity_start>
                  <max_velocity_end>55</max_velocity_end>
-                <factor>15</factor>
+                <factor>7.5</factor>
             </fast_factor>
             <mid_factor>
                 <ratio_start>0.004</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>40</max_velocity_start>
                 <max_velocity_end>40</max_velocity_end>
-                <factor>15</factor>
+                <factor>7.5</factor>
             </mid_factor>
             <slow_factor>
                 <ratio_start>0.1</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>15</max_velocity_start>
                 <max_velocity_end>15</max_velocity_end>
-                <factor>10</factor>
+                <factor>6</factor>
             </slow_factor>
         </trigger>
         <trigger>
@@ -533,21 +533,21 @@
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>55</max_velocity_start>
                  <max_velocity_end>55</max_velocity_end>
-                <factor>10</factor>
+                <factor>6</factor>
             </fast_factor>
             <mid_factor>
                 <ratio_start>0.004</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>40</max_velocity_start>
                 <max_velocity_end>40</max_velocity_end>
-                <factor>10</factor>
+                <factor>6</factor>
             </mid_factor>
             <slow_factor>
                 <ratio_start>0.1</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>15</max_velocity_start>
                 <max_velocity_end>15</max_velocity_end>
-                <factor>10</factor>
+                <factor>6</factor>
             </slow_factor>
         </trigger>
         <trigger>
@@ -561,21 +561,21 @@
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>55</max_velocity_start>
                  <max_velocity_end>55</max_velocity_end>
-                <factor>7</factor>
+                <factor>3.5</factor>
             </fast_factor>
             <mid_factor>
                 <ratio_start>0.004</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>40</max_velocity_start>
                 <max_velocity_end>40</max_velocity_end>
-                <factor>7</factor>
+                <factor>3.5</factor>
             </mid_factor>
             <slow_factor>
                 <ratio_start>0.1</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>15</max_velocity_start>
                 <max_velocity_end>15</max_velocity_end>
-                <factor>7</factor>
+                <factor>3.5</factor>
             </slow_factor>
         </trigger>
         <trigger>
@@ -589,21 +589,21 @@
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>55</max_velocity_start>
                  <max_velocity_end>55</max_velocity_end>
-                <factor>10</factor>
+                <factor>5</factor>
             </fast_factor>
             <mid_factor>
                 <ratio_start>0.004</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>40</max_velocity_start>
                 <max_velocity_end>40</max_velocity_end>
-                <factor>10</factor>
+                <factor>5</factor>
             </mid_factor>
             <slow_factor>
                 <ratio_start>0.1</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>15</max_velocity_start>
                 <max_velocity_end>15</max_velocity_end>
-                <factor>10</factor>
+                <factor>5</factor>
             </slow_factor>
         </trigger> 
         <trigger>
@@ -617,21 +617,21 @@
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>55</max_velocity_start>
                  <max_velocity_end>55</max_velocity_end>
-                <factor>8</factor>
+                <factor>6</factor>
             </fast_factor>
             <mid_factor>
                 <ratio_start>0.004</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>40</max_velocity_start>
                 <max_velocity_end>40</max_velocity_end>
-                <factor>8</factor>
+                <factor>6</factor>
             </mid_factor>
             <slow_factor>
                 <ratio_start>0.1</ratio_start>
                 <ratio_end>1.0</ratio_end>
                 <max_velocity_start>15</max_velocity_start>
                 <max_velocity_end>15</max_velocity_end>
-                <factor>8</factor>
+                <factor>6</factor>
             </slow_factor>
         </trigger>    		
     </cameraId>

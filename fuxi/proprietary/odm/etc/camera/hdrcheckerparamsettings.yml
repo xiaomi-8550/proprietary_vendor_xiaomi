@@ -1,7 +1,7 @@
 #if there is any change, please modify the commiter and modification time when submitting
 commiter: 'chenyifei'
-timestamp: '202211040947'
-product_name: "M2"
+timestamp: 'overexp_start_bin'
+product_name: "M3"
 platform: 'qcom'
 
 trigger_param:
@@ -53,21 +53,6 @@ trigger_param:
       preview_middle_bin0: [80, 80, 80, 80]
       preview_middle_bin1: [200, 200, 200, 200]
       scene_det_luxindex: [250, 250, 250, 250]
-      detect_with_model:
-        enable: [1, 0, 0, 0]
-        prio1:
-          luxindex: [345, 385, 385, 385]
-          dark_ratio: [0.2, 0.2, 0.2, 0.2]
-          mid_ratio: [0.65, 0.5, 0.5, 0.5]
-        prio2:
-          logical: [1, 1, 1, 1] # 1:and, 2:or
-          model_luxindex: [280, 280, 280, 280]
-          t1_luxindex: [325, 325, 325, 325]
-          t1_dark_ratio: [0.2, 0.2, 0.2, 0.2]
-          t1_mid_ratio: [0.55, 0.55, 0.55, 0.55]
-          t2_luxindex: [275, 275, 275, 275]
-          t2_dark_ratio: [0.3, 0.45, 0.2, 0.2]
-          t2_mid_ratio: [0.425, 0.3, 0.5, 0.5]
     bokeh:
       enable: 0
       real_drc_gain: 5.5
@@ -146,15 +131,16 @@ ev_setting:
           adrc_gain: [0, 0, 0, 0]
           adrc_gain_diff: [3.5, 4.0, 4.0, 4.0]
           luxindex: [300, 250, 250, 250]
+        noise:
+          enable: [1, 0, 0, 0]
+          face_needs: [0, 0, 0, 0]
+          short_min: [-12, -12, -12, -12]
+          vs_min: [-36, -36, -36, -36]
       enable: [1, 1, 1, 1]
       max_adrc_gain: [4, 6, 6, 6]
       ev_limit: [-42, -42, -42, -42]
       ev_comp_coef: [-9, -6, -6, -6]
       min_exposure: [83126, 52598, 72900, 72900]
-      adrc_diff_comp:
-        luxindex: [335, 1000, 1000, 1000]
-        adrc_diff_th: [0.95, 1.0, 1.0, 1.0]
-        adrc_diff_addi: [1.5, 1.5, 1.5, 1.5]
       in_out_door:
         luxindex: [210, 200, 200, 200]
         shutter: [10, 10, 10, 10]

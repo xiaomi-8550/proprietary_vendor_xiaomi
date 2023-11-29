@@ -6,16 +6,16 @@ global_config:
   enable_rear_fusion_phase2: true 
   dump:
     SEG_SNPE: false
-  #  INPUT: true
-  #  ALIGNED: true
-  #  DEGHOSTED: true
-  #  FINAL_IMG: true
-  #  FACE_DETECTION: true
-  #  PORTRAIT_SEG: true
-  #  COLLAPSED_Y: true
-  #  ADJUSTED_Y: true
-  #  DARK_MASK: true
-  #  FINAL_UV: true
+#    INPUT: true
+#    ALIGNED: true
+#    DEGHOSTED: true
+#    FINAL_IMG: true
+#    FACE_DETECTION: true
+#    PORTRAIT_SEG: true
+#    COLLAPSED_Y: true
+#    ADJUSTED_Y: true
+#    DARK_MASK: true
+#    FINAL_UV: true
   
 img_default_parameter:
   orientation: 90
@@ -24,7 +24,7 @@ img_default_parameter:
   loopIndex: 1
 
 mobile_model:
-  M2: true
+  M3: true
 
 algo_params_dsp:
   hdsr:

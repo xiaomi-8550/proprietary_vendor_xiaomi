@@ -1,6 +1,5 @@
 {
-    "ModeList":
-    {
+    "ModeList": {
         "Mode": [
             {
                 // 0x9010, StreamConfigModeThirdCamera
@@ -209,7 +208,6 @@
                 ]
             },
             {
-                // 0x9000, StreamConfigModeAlgoDual
                 "SessionOpMode": 65301,
                 "VendorOpMode": 36864,
                 "Signature": "Bokeh2x",
@@ -263,6 +261,7 @@
                 "FeatureMask" : 18,
                 "VideoMode": true,
                 "LensFacing": 0,
+                "FPSRange":[24,24],
                 "AllowStreamsMask": [
                     13,7
                 ]
@@ -279,17 +278,6 @@
                 ]
             },
             {
-                "SessionOpMode": 65293,
-                "VendorOpMode": 37382,
-                "Signature": "SdkVideoEIS",
-                "FeatureMask" : 16,
-                "VideoMode": true,
-                "LensFacing": 60,
-                "AllowStreamsMask": [
-                    13,7,1,3,5,9
-                ]
-            },
-            {
                 "SessionOpMode": 65302,
                 "VendorOpMode": 32772,
                 "Signature": "SdkVideoEISV3",
@@ -298,6 +286,17 @@
                 "LensFacing": 60,
                 "AllowStreamsMask": [
                     13,7
+                ]
+            },
+            {
+                "SessionOpMode": 65293,
+                "VendorOpMode": 37382,
+                "Signature": "SdkVideoEIS",
+                "FeatureMask" : 16,
+                "VideoMode": true,
+                "LensFacing": 60,
+                "AllowStreamsMask": [
+                    13,7,1,3,5,9
                 ]
             },
             {
@@ -320,81 +319,6 @@
                 "LensFacing": [ 0,1,21 ],
                 "AllowStreamsMask": [
                     13,7
-                ]
-            },
-            {
-                // CameraUser::SDK
-                "CameraUser": 1,
-                "SessionOpMode": 65303,
-                // 0x9002, StreamConfigModeAlgoDualSAT
-                "VendorOpMode": 36866,
-                "LensFacing": 64,
-                "FeatureMask" : 432,
-                "Signature": "SdkAuto",
-                "BufferLimitCnt": 12,
-                "VendorSnapshotBufferQueueSize": 30,
-                "StreamConfig": [
-                    // raw16 stream of wide
-                    {
-                        "roleId": 0,
-                        "ratio": 1.33,
-                        "isPhysicalStream": true,
-                        "format": 32,
-                        "usage": 3,
-                        "dataSpace": 146931712
-                    },
-                    // raw16 stream of ultra wide
-                    {
-                        "roleId": 21,
-                        "ratio": 1.33,
-                        "isPhysicalStream": true,
-                        "format": 32,
-                        "usage": 3,
-                        "dataSpace": 146931712
-                    },
-                    // normal yuv stream of wide
-                    {
-                        "roleId": 0,
-                        "ratio": 0.0,
-                        "isPhysicalStream": true,
-                        "format": 35,
-                        "usage": 3,
-                        "dataSpace": 146931712
-                    },
-                    // normal yuv stream of ultra wide
-                    {
-                        "roleId": 21,
-                        "ratio": 0.0,
-                        "isPhysicalStream": true,
-                        "format": 35,
-                        "usage": 3,
-                        "dataSpace": 146931712
-                    }
-                ]
-            },
-            {
-                // CameraUser::SDK
-                "CameraUser": 1,
-                "SessionOpMode": 65303,
-                // 0x9001, StreamConfigModeQCFALite
-                "VendorOpMode": 36865,
-                // 0x8005, StreamConfigModeMiuiZslFront
-                "MialgoOpMode": 32773,
-                "LensFacing": 1,
-                "Signature": "SingleFront",
-                "BufferLimitCnt": 3,
-                "FlushWaitTimeMs": 4000,
-                // 0001 0010, 0x12, vendorMfnr/hdr
-                "FeatureMask" : 18,
-                "StreamConfig": [
-                    // yuv stream for front single camera
-                    {
-                        "ratio": 0.0,
-                        "isPhysicalStream": false,
-                        "format": 35,
-                        "usage": 3,
-                        "dataSpace": 146931712
-                    }
                 ]
             }
         ]

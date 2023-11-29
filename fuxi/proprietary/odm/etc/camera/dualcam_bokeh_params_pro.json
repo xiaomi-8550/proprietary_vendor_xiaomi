@@ -9,7 +9,7 @@
   "StructMT":{
 	"InResizeMT": 1,
 	"ScatYuvMT": 1,
-	"UvbluMT": 1,
+	"UvbluMT": 0,
 	"PosProcYMT": 1
   },
   "StructDownSamp":{
@@ -28,7 +28,7 @@
       "StructPrePorcDepth": {
           "StructPrePorcDepthNorm": {
               "paramSwitch": 1,
-              "paramSize": 3
+              "paramSize": 5
           },
           "StructPrePorcDepthNight": {
               "paramSwitch": 0,
@@ -39,17 +39,17 @@
           "StructDofNorm": {
               "maxAbnorRat": 0.01,
               "minAbnorRat": 0.01,
-              "backDist_1x": 15,
-              "backDist_3x": 15,
+              "backDist_1x": 10,
+              "backDist_3x": 10,
               "foreDist_1x": 15,
               "foreDist_3x": 15,
-              "backDistBias_1x": 0,
-              "backDistBias_3x": 0
+              "backDistBias_1x": 10,
+              "backDistBias_3x": 10
           },
           "StructDofNight": {
-              "backDistRat_1x": 0.6,
+              "backDistRat_1x": 2.0,
               "foreDistRat_1x": 0.5,
-              "backDistRat_3x": 0.5,
+              "backDistRat_3x": 1.0,
               "foreDistRat_3x": 0.3,
               "backDistBias_1x": 0,
               "backDistBias_3x": 0
@@ -73,16 +73,16 @@
       },
     "StructRadius": {
         "StructRadiusNorm": {
-            "backLeve_1x": 0.095,
-            "foreLeve_1x": 0.05,
+            "backLeve_1x": 0.125,
+            "foreLeve_1x": 0.02,
             "apeRat_1x": 1.4,
-            "backGam_1x": 2.0,
-            "foreGam_1x": 1.5,
+            "backGam_1x": 2.5,
+            "foreGam_1x": 1.8,
             "a_slope_1x": 0.001,
             "b_inter_1x": 1.1,
-            "backLeve_3x": 0.60,
-            "foreLeve_3x": 0.30,
-            "apeRat_3x": 1.4,
+            "backLeve_3x": 1.1,
+            "foreLeve_3x": 0.20,
+            "apeRat_3x": 1.8,
             "backGam_3x": 1.2,
             "foreGam_3x": 1.5,
             "a_slope_3x": 0.0,
@@ -164,16 +164,16 @@
 	  "StructUv":{
 		  "paramSwitch": 1,
 		  "paramBlurRatio": 2,
-		  "paramBlurWay": 1,
+		  "paramBlurWay": 0,
 		  "paramSwitch_night": 1,
 		  "paramBlurRatio_night": 2,
-		  "paramBlurWay_night": 1
+		  "paramBlurWay_night": 0
 	  }
   },
   "StructPos": {
 	  "StructFusnAlpha":{
 		  "paramSwitch": 1,
-		  "paramLowTh": 0.2,
+		  "paramLowTh": 0.3,
 		  "paramHighTh": 0.6,
 		  "paramLowTh_night": 0.3,
 		  "paramHighTh_night": 0.7,

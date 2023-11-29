@@ -9,6 +9,12 @@
             "OutputFormat": "YUV420_NV12"
         },
         {
+            "NodeName": "com.xiaomi.plugin.frontbokeh",
+            "NodeInstance": "FrontBokehInstance0",
+            "InputFormat": "YUV420_NV12",
+            "OutputFormat": "YUV420_NV12"
+        },
+        {
           "NodeName": "com.xiaomi.plugin.portraitrepair",
           "NodeInstance": "PortraitRepairInstance0",
           "InputFormat": "YUV420_NV12",
@@ -19,12 +25,6 @@
                 "NodePropertyValue":1
             }
           ]
-        },
-        {
-            "NodeName": "com.xiaomi.plugin.frontbokeh",
-            "NodeInstance": "FrontBokehInstance0",
-            "InputFormat": "YUV420_NV12",
-            "OutputFormat": "YUV420_NV12"
         },
         {
             "NodeName": "com.xiaomi.plugin.tsskinbeautifier",
@@ -48,8 +48,8 @@
         },
         {
             "SrcPort": {
-            "PortId": 0,
-            "NodeInstance": "PortraitRepairInstance0"
+                "PortId": 0,
+                "NodeInstance": "PortraitRepairInstance0"
             },
             "DstPort": {
                 "PortId": 0,

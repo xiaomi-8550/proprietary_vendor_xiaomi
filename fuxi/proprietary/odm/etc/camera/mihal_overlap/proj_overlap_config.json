@@ -1,5 +1,4 @@
 {
-    "METADATA_FROM_STATIC_INFO": 1,
     "project_overlap_config_fn": "proj_overlap_config.json",
     "device_ex_info_fn": "device_ex_info.json",
 
@@ -10,24 +9,9 @@
             "note" : ""
         },
         {
-            "width" : 8160,
-            "height" : 6144,
-            "note" : ""
-        },
-        {
-            "width" : 6528,
-            "height" : 4896,
-            "note" : ""
-        },
-        {
             "width" : 4096,
             "height" : 3072,
-            "note" : "4:3  Wide"
-        },
-        {
-            "width" : 4080,
-            "height" : 3072,
-            "note" : "TELE2x & Ultra active size for factory"
+            "note" : "4:3  Wide IMX800"
         },
         {
             "width" : 4096,
@@ -35,21 +19,46 @@
             "note" : "16:9 Wide"
         },
         {
-            "width" : 3632,
-            "height" : 2724,
-            "note" : "tele raw"
-        },
-        {
             "width" : 3264,
             "height" : 2448,
             "note" : "4:3 Front OV32C"
+        },
+        {
+            "width" : 4000,
+            "height" : 3000,
+            "note" : "4:3 Ultra OV13B"
+        },
+        {
+            "width" : 3648,
+            "height" : 2736,
+            "note" : "4:3 TELE2x"
         }
     ],
     "CAMX__STANDARD_IMAGE_SIZES": [
         {
             "width" : 3072,
             "height" : 3072,
-            "note" : "1:1 Wide & Front & TELE2x & Ultra"
+            "note" : "1:1 Wide & Front"
+        },
+        {
+            "width" : 3264,
+            "height" : 1472,
+            "note" : "full screen 20:9   Front OV32C"
+        },
+        {
+            "width" : 3000,
+            "height" : 3000,
+            "note" : "1:1 Ultra OV13B"
+        },
+        {
+            "width" : 2736,
+            "height" : 2736,
+            "note" : "1:1 TELE2x SK1"
+        },
+        {
+            "width" : 4096,
+            "height" : 2304,
+            "note" : "16:9 Wide"
         },
         {
             "width" : 4096,
@@ -62,24 +71,29 @@
             "note" : "full screen 20:9 wide"
         },
         {
-            "width" : 4080,
-            "height" : 3060,
-            "note" : "2x Bokeh 4:3 Strict 4:3 size"
+            "width" : 4000,
+            "height" : 2250,
+            "note" : "16:9 ultra OV13B"
         },
         {
-            "width" : 4080,
-            "height" : 2296,
-            "note" : "16:9 ultra Tele2x"
+            "width" : 4000,
+            "height" : 1800,
+            "note" : "20:9 ultra OV13B"
         },
         {
-            "width" : 4080,
-            "height" : 1836,
-            "note" : "16:9 ultra Tele2x"
+            "width" : 3648,
+            "height" : 2052,
+            "note" : "16:9 Tele2x SK1"
+        },
+        {
+            "width" : 3648,
+            "height" : 1640,
+            "note" : "20:9 Tele2x SK1"
         },
         {
             "width" : 3840,
             "height" : 2160,
-            "note" : "4k  video"
+            "note" : "4K Video"
         },
         {
             "width" : 2880,
@@ -194,29 +208,29 @@
     ],
     "CAMX__XIAOMI_CUSTOM_SUPPORTED_IMAGE_SIZES": [
         {
-            "width" : 8160,
-            "height" : 6144,
-            "note" : "SWRemosaic  4:3  ultra Tele2x"
-        },
-        {
-            "width" : 8160,
-            "height" : 6120,
-            "note" : "SWRemosaic Strict 4:3 size "
-        },
-        {
             "width" : 4096,
             "height" : 1844,
             "note" : "full screen 20:9 wide"
         },
         {
-            "width" : 4080,
-            "height" : 3060,
-            "note" : "2x Bokeh 4:3 Strict 4:3 size"
+            "width" : 1824,
+            "height" : 2736,
+            "note" : "Bokeh depth size W(3648/2)  H(2736) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
+        },
+        {
+            "width" : 1824,
+            "height" : 2052,
+            "note" : "Bokeh depth size W(3648/2)  H(2052) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
+        },
+        {
+            "width" : 1824,
+            "height" : 1640,
+            "note" : "Bokeh depth size W(3648/2)  H(1640) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
         },
         {
             "width" : 2048,
-            "height" : 1844,
-            "note" : "Bokeh depth size W(4096/2)  H(1844) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
+            "height" : 3072,
+            "note" : "Bokeh depth size W(4096/2)  H(3072) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
         },
         {
             "width" : 2048,
@@ -225,53 +239,23 @@
         },
         {
             "width" : 2048,
-            "height" : 3072,
-            "note" : "Bokeh depth size W(4096/2)  H(3072) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
-        },
-        {
-            "width" : 2040,
-            "height" : 3060,
-            "note" : "Bokeh depth size W(4080/2)  H(3060) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
-        },
-        {
-            "width" : 2040,
-            "height" : 2296,
-            "note" : "Bokeh depth size W(4080/2)  H(2296) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
-        },
-        {
-            "width" : 2040,
-            "height" : 1836,
-            "note" : "Bokeh depth size W(4080/2)  H(1836) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
+            "height" : 1844,
+            "note" : "Bokeh depth size W(4096/2)  H(1844) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
         },
         {
             "width" : 1632,
             "height" : 2448,
-            "note" : "Bokeh depth size W(2880/2)  H(2448) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
+            "note" : "Bokeh depth size W(3264/2)  H(2448) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
         },
         {
             "width" : 1600,
             "height" : 1800,
-            "note" : "Bokeh depth size W(2880/2)  H(2448) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
+            "note" : "Bokeh depth size W(3200/2)  H(1800) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
         },
         {
-            "width" : 1600,
-            "height" : 1440,
-            "note" : "Bokeh depth size W(2880/2)  H(2448) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
-        },
-        {
-            "width" : 4080,
-            "height" : 2296,
-            "note" : "16:9 ultra Tele2x"
-        },
-        {
-            "width" : 4080,
-            "height" : 1836,
-            "note" : "full screen 20:9 ultra Tele2x"
-        },
-        {
-            "width" : 4064,
-            "height" : 3048,
-            "note" : "4:3 TELE2x & Ultra"
+            "width" : 1632,
+            "height" : 1472,
+            "note" : "Bokeh depth size W(3264/2)  H(1472) ((Width/2)*(Height))*2 > depth buf size actual size 8.2MB"
         },
         {
             "width" : 4000,
@@ -284,64 +268,29 @@
             "note" : "full screen 20:9 wide ultra Tele2x"
         },
         {
+            "width" : 3360,
+            "height" : 2520,
+            "note" : "bokeh2x 4:3 ultra"
+        },
+        {
+            "width" : 3360,
+            "height" : 1890,
+            "note" : "bokeh2x 16:9 ultra"
+        },
+        {
+            "width" : 3360,
+            "height" : 1512,
+            "note" : "bokeh2x fullsize ultra"
+        },
+        {
             "width" : 3200,
             "height" : 1440,
             "note" : "full screen 20:9 Front"
         },
         {
-            "width" : 3968,
-            "height" : 2232,
-            "note" : "binning     16:9 ultra Tele2x"
-        },
-        {
-            "width" : 3040,
-            "height" : 2280,
-            "note" : "1x Bokeh 4:3 ultra cropsize"
-        },
-        {
-            "width" : 3040,
-            "height" : 1712,
-            "note" : "1x Bokeh 16:9"
-        },
-        {
-            "width" : 3040,
-            "height" : 1368,
-            "note" : "1x Bokeh fullsize"
-        },
-        {
-            "width" : 2592,
-            "height" : 1944,
-            "note" : "2x Bokeh 4:3 wide cropszie"
-        },
-        {
-            "width" : 2592,
-            "height" : 1460,
-            "note" : "2x Bokeh 16:9 cropszie"
-        },
-        {
-            "width" : 2592,
-            "height" : 1168,
-            "note" : "2x Bokeh fullsize cropszie"
-        },
-        {
-            "width" : 2560,
-            "height" : 1920,
-            "note" : "4:3  Tele3x fakesat"
-        },
-        {
             "width" : 1920,
-            "height" : 1920,
-            "note" : "1:1  Tele3x fakesat"
-        },
-        {
-            "width" : 2560,
-            "height" : 1440,
-            "note" : "16:9  Tele3x fakesat"
-        },
-        {
-            "width" : 2560,
-            "height" : 1152,
-            "note" : "20:9  Tele3x fakesat"
+            "height" : 864,
+            "note" : "bokeh2x fullsize wide"
         },
         {
             "width" : 1080,
@@ -376,22 +325,6 @@
             "note" : "IMX800 HWRemosaic 4:3  Wide"
         },
         {
-            "width" : 8160,
-            "height" : 6120,
-            "note" : "IMX800 HWRemosaic Strict 4:3 size"
-        },
-        {
-            "width" : 6120,
-            "height" : 8160,
-            "note" : "IMX800 HWRemosaic Strict 4:3 size heif"
-        },
-
-        {
-            "width" : 8160,
-            "height" : 6144,
-            "note" : "IMX800 HWRemosaic 4:3  Wide"
-        },
-        {
             "width" : 8192,
             "height" : 4608,
             "note" : "IMX800 HWRemosaic 16:9 Wide"
@@ -407,24 +340,19 @@
             "note" : "IMX800 HWRemosaic 4:3  Wide heif"
         },
         {
-            "width" : 6144,
-            "height" : 8160,
-            "note" : "IMX800 HWRemosaic 4:3  Wide heif"
-        },
-        {
             "width" : 3072,
             "height" : 4096,
             "note" : "4:3  Wide heif"
         },
         {
-            "width" : 3072,
-            "height" : 4080,
-            "note" : "TELE2x active size for factory heif"
+            "width" : 3000,
+            "height" : 4000,
+            "note" : "Ultra OV13B active size for factory heif"
         },
         {
-            "width" : 3060,
-            "height" : 4080,
-            "note" : "Strict 4:3 Tele Ultra heif size"
+            "width" : 2736,
+            "height" : 3648,
+            "note" : "4:3 raw heif"
         },
         {
             "width" : 2304,
@@ -432,9 +360,9 @@
             "note" : "16:9 Wide heif"
         },
         {
-            "width" : 2296,
-            "height" : 4080,
-            "note" : "16:9 ultra Tele2x heif"
+            "width" : 2250,
+            "height" : 4000,
+            "note" : "16:9 ultra OV13B heif"
         },
         {
             "width" : 1844,
@@ -442,9 +370,19 @@
             "note" : "full screen 20:9 wide heif"
         },
         {
-            "width" : 1836,
-            "height" : 4080,
-            "note" : "full screen 20:9 ultra Tele2x heif"
+            "width" : 1800,
+            "height" : 4000,
+            "note" : "full screen 20:9 ultra heif"
+        },
+        {
+            "width" : 1640,
+            "height" : 3648,
+            "note" : "full screen 20:9 Tele heif"
+        },
+        {
+            "width" : 2052,
+            "height" : 3648,
+            "note" : "16:9 raw heif"
         }
     ],
     "CAMX__XIAOMI_FRONT_QCFA_IMAGE_SIZES": [
@@ -515,16 +453,6 @@
             "note" : "IMX707 HWRemosaic 4:3 Wide"
         },
         {
-            "width" : 8160,
-            "height" : 6144,
-            "note" : "IMX707 HWRemosaic 4:3  Wide"
-        },
-        {
-            "width" : 8160,
-            "height" : 6120,
-            "note" : "IMX707 HWRemosaic Strict 4:3"
-        },
-        {
             "width" : 1440,
             "height" : 1080,
             "note" : "4:3 Preview"
@@ -535,11 +463,6 @@
             "width" : 4096,
             "height" : 3072,
             "note" : "wide"
-        },
-        {
-            "width" : 4080,
-            "height" : 3072,
-            "note" : "ultra & tele2x"
         }
     ],
     "CAMX__XIAOMI_CUSTOM_SUPPORTED_THUMBNAIL_SIZES": [
@@ -596,7 +519,10 @@
             "isSensorOutput" : 0,
             "note" : "4K, maxFps 24, not sensorOutput"
         }
+
     ],
+    "CHI__PRODUCT_NAME": "fuxi",
+    "CAMX__PRODUCT_NAME": "fuxi",
     "CHI__CUSTOMIZABLE_APK":[
         {
             "ApkFunctionType":"None",
@@ -730,16 +656,6 @@
         {
             "ApkFunctionType":"ReconfigCaptureScene",
             "ApkTable" :["com.tencent.wework"]
-        },
-        {
-            "ApkFunctionType":"SkipUselessFeature",
-            "ApkTable" :["com.eg.android.AlipayGphone",
-                                        "com.tencent.mm"]
-        },
-        {
-            "ApkFunctionType":"FallbackTrigger",
-            "ApkTable" :["com.gorgeous.lite",
-                        "com.tencent.mm"]
         }
     ]
     ,
@@ -756,15 +672,6 @@
         {
             "modeInBokehTab" : 61,
             "sensorCombination" : 0,
-            "masterCap" : 0,
-            "slaveCap" : 0,
-            "mEnableSwitch" : 0,
-            "sEnableSwitch" : 1,
-            "note" : "BOKEH2X"
-        },
-        {
-            "modeInBokehTab" : 61,
-            "sensorCombination" : 1,
             "masterCap" : 0,
             "slaveCap" : 0,
             "mEnableSwitch" : 0,
@@ -795,15 +702,6 @@
             "masterCap" : 0,
             "slaveCap" : 0,
             "mEnableSwitch" : 0,
-            "sEnableSwitch" : 1,
-            "note" : "75mm - 4"
-        },
-        {
-            "modeInBokehTab" : 4,
-            "sensorCombination" : 1,
-            "masterCap" : 0,
-            "slaveCap" : 0,
-            "mEnableSwitch" : 0,
             "sEnableSwitch" : 0,
             "note" : "75mm - 4"
         },
@@ -813,95 +711,58 @@
             "masterCap" : 0,
             "slaveCap" : 0,
             "mEnableSwitch" : 0,
-            "sEnableSwitch" : 1,
-            "note" : "90mm - 2"
-        },
-        {
-            "modeInBokehTab" : 2,
-            "sensorCombination" : 1,
-            "masterCap" : 0,
-            "slaveCap" : 0,
-            "mEnableSwitch" : 0,
             "sEnableSwitch" : 0,
             "note" : "90mm - 2"
         }
-    ]
-    ,
-    "CHI__BOKEH_REDUCE_PREVIEW_SIZE_CFG": [
-        1280, 960, 1280, 720, 1600, 720
     ],
     "CAMX__XIAOMI_MANUAL_RAW_IMAGE_SIZE": [
         {
             "sensorid" : 3,
             "format" : 32,
-            "width" : 3632,
-            "height" : 2724,
+            "width" : 3264,
+            "height" : 2448,
             "type" : 0
         }
     ],
-    "CHI__NEED_SKIP_USELESS_RTNZSL_PIPELINE_MASK":3,
     "CHI__NEED_SKIP_USELESS_FEATURE":1,
-    "CAMX__XIAOMI_SKIP_USELESS_RTNZSL_PIPELINE_MASK":3,
-    "CAMX__SENSOR_CONFIG_SAMPLING_RATE": 416.0,
-    "CAMX__SENSOR_CONFIG_RATE_GYRO": 104.0,
-    "CAMX__ACCEL_SAMPLE_RATE": 416.0,
+    "CAMX__SENSOR_CONFIG_SAMPLING_RATE": 400.0,
+    "CAMX__SENSOR_CONFIG_RATE_GYRO": 100.0,
+    "CAMX__ACCEL_SAMPLE_RATE": 400.0,
     "CHI__BOKEH_SET_SLAVE_CROP": [
-        {
-            "modeInPortraitTab" : 2,
-            "sensorCombination" : 0,
-            "slaveCap" : 0,
-            "originWidth" : 4096,
-            "cropToWidth" : 2048,
-            "note" : "Bust:T+W W binning"
-        },
         {
             "modeInPortraitTab" : 2,
             "sensorCombination" : 1,
             "slaveCap" : 0,
-            "originWidth" : 4080,
-            "cropToWidth" : 2040,
+            "originWidth" : 3360,
+            "cropToWidth" : 1440,
             "note" : "Bust:W+UW UW binning"
         },
         {
             "modeInPortraitTab" : 4,
             "sensorCombination" : 1,
             "slaveCap" : 0,
-            "originWidth" : 4080,
-            "cropToWidth" : 2040,
+            "originWidth" : 3360,
+            "cropToWidth" : 1920,
             "note" : "50mm:W+UW UW binning"
         },
         {
             "modeInPortraitTab" : 5,
-            "sensorCombination" : 0,
-            "slaveCap" : 0,
-            "originWidth" : 4096,
-            "cropToWidth" : 2048,
-            "note" : "75mm:T+W W binning"
-        },
-        {
-            "modeInPortraitTab" : 5,
             "sensorCombination" : 1,
             "slaveCap" : 0,
-            "originWidth" : 4080,
-            "cropToWidth" : 2040,
+            "originWidth" : 3360,
+            "cropToWidth" : 1440,
             "note" : "75mm:W+UW UW binning"
         },
         {
             "modeInPortraitTab" : 6,
-            "sensorCombination" : 0,
-            "slaveCap" : 0,
-            "originWidth" : 4096,
-            "cropToWidth" : 2048,
-            "note" : "90mm:T+W W binning"
-        },
-        {
-            "modeInPortraitTab" : 6,
             "sensorCombination" : 1,
             "slaveCap" : 0,
-            "originWidth" : 4080,
-            "cropToWidth" : 2040,
+            "originWidth" : 3360,
+            "cropToWidth" : 1440,
             "note" : "90mm:W+UW UW binning"
         }
     ],
+    "CAMX__MAX_SR_SCALING": 1.0,
+    "CAMX__FRONT_MAX_SR_SCALING": 2.0,
     "__OVERLAP_NEW_CONFIG_INSERT_POINT__":0
 }

@@ -146,10 +146,10 @@
         "data": "0.0"
       },
       "1":{ "type": "flt", "ver": "2",
-        "data": "728.0"
+        "data": "900.0"
       },
       "2":{ "type": "flt", "ver": "1",
-        "data": "980.0"
+        "data": "900.0"
       },
       "3":{ "type": "flt", "ver": "0",
         "data": "0.0"
@@ -241,7 +241,7 @@
       "SX933X_ADCFILTPH0_REG_0x8054":{ "type": "int", "ver": "0",
                   "data": "0x8054"
       },
-      "SX933X_ADCFILTPH0":{ "type": "int", "ver": "7",
+      "SX933X_ADCFILTPH0":{ "type": "int", "ver": "6",
                   "data": "0x08312800"
       },
       "SX933X_AVGBFILTPH0_REG_0x8058":{ "type": "int", "ver": "0",
@@ -259,8 +259,8 @@
       "SX933X_ADVDIG3PH0_REG_0x806C":{ "type": "int", "ver": "0",
                   "data": "0x806C"
       },
-      "SX933X_ADVDIG3PH0":{ "type": "int", "ver": "4",
-                  "data": "0x21002100"
+      "SX933X_ADVDIG3PH0":{ "type": "int", "ver": "3",
+                  "data": "0x22002200"
       },
       "SX933X_ADVDIG4PH0_REG_0x8070":{ "type": "int", "ver": "0",
                   "data": "0x8070"
@@ -313,8 +313,8 @@
       "SX933X_AFEPARAMSPH2_REG_0x8034":{ "type": "int", "ver": "0",
                   "data": "0x8034"
       },
-      "SX933X_AFEPARAMSPH2":{ "type": "int", "ver": "2",
-                  "data": "0x21001E9E"
+      "SX933X_AFEPARAMSPH2":{ "type": "int", "ver": "1",
+                  "data": "0x1000186E"
       },
       "SX933X_AFEPHPH2_REG_0x8038":{ "type": "int", "ver": "0",
                   "data": "0x8038"
@@ -325,8 +325,8 @@
       "SX933X_ADCFILTPH2_REG_0x8094":{ "type": "int", "ver": "0",
                   "data": "0x8094"
       },
-      "SX933X_ADCFILTPH2":{ "type": "int", "ver": "3",
-                  "data": "0x08313500"
+      "SX933X_ADCFILTPH2":{ "type": "int", "ver": "2",
+                  "data": "0x08312D00"
       },
       "SX933X_AVGBFILTPH2_REG_0x8098":{ "type": "int", "ver": "0",
                   "data": "0x8098"
@@ -343,8 +343,8 @@
       "SX933X_ADVDIG3PH2_REG_0x80AC":{ "type": "int", "ver": "0",
                   "data": "0x80AC"
       },
-      "SX933X_ADVDIG3PH2":{ "type": "int", "ver": "2",
-                  "data": "0x00500050"
+      "SX933X_ADVDIG3PH2":{ "type": "int", "ver": "1",
+                  "data": "0x00050005"
       },
       "SX933X_ADVDIG4PH2_REG_0x80B0":{ "type": "int", "ver": "0",
                   "data": "0x80B0"
@@ -355,8 +355,8 @@
       "SX933X_AFEPARAMSPH3_REG_0x803C":{ "type": "int", "ver": "0",
                   "data": "0x803C"
       },
-      "SX933X_AFEPARAMSPH3":{ "type": "int", "ver": "2",
-                  "data": "0x21001E9E"
+      "SX933X_AFEPARAMSPH3":{ "type": "int", "ver": "1",
+                  "data": "0x1000186E"
       },
       "SX933X_AFEPHPH3_REG_0x8040":{ "type": "int", "ver": "0",
                   "data": "0x8040"

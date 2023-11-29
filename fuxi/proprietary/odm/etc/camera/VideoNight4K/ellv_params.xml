@@ -33,7 +33,7 @@
       <bl_offset_start>0</bl_offset_start>
       <bl_offset_end>0</bl_offset_end>
       <ratio1_start>1</ratio1_start>
-      <ratio1_end>0.6</ratio1_end>
+      <ratio1_end>0.5</ratio1_end>
       <ratio2_start>0</ratio2_start>
       <ratio2_end>0</ratio2_end>
       <ratio3_start>0</ratio3_start>
@@ -52,7 +52,7 @@
       <hdrexpnum>1</hdrexpnum>
       <bl_offset_start>0</bl_offset_start>
       <bl_offset_end>0</bl_offset_end>
-      <ratio1_start>0.6</ratio1_start>
+      <ratio1_start>0.5</ratio1_start>
       <ratio1_end>0.2</ratio1_end>
       <ratio2_start>0</ratio2_start>
       <ratio2_end>0</ratio2_end>
@@ -72,7 +72,7 @@
       <hdrexpnum>1</hdrexpnum>
       <bl_offset_start>0</bl_offset_start>
       <bl_offset_end>0</bl_offset_end>
-      <ratio1_start>0.6</ratio1_start>
+      <ratio1_start>0.5</ratio1_start>
       <ratio1_end>0.2</ratio1_end>
       <ratio2_start>0</ratio2_start>
       <ratio2_end>0</ratio2_end>
@@ -93,7 +93,7 @@
       <bl_offset_start>0</bl_offset_start>
       <bl_offset_end>0</bl_offset_end>
       <ratio1_start>0.2</ratio1_start>
-      <ratio1_end>0</ratio1_end>
+      <ratio1_end>0.1</ratio1_end>
       <ratio2_start>0</ratio2_start>
       <ratio2_end>0</ratio2_end>
       <ratio3_start>0</ratio3_start>
@@ -141,6 +141,7 @@
       <ratio4_start>0</ratio4_start>
       <ratio4_end>0</ratio4_end>
     </merge_part>
+
 
     <merge_part>
       <part_index>4</part_index>
@@ -198,8 +199,8 @@
       <bl_offset_end>0</bl_offset_end>
       <ratio1_start>0</ratio1_start>
       <ratio1_end>0</ratio1_end>
-      <ratio2_start>0.01</ratio2_start>
-      <ratio2_end>0.01</ratio2_end>
+      <ratio2_start>0.001</ratio2_start>
+      <ratio2_end>0.001</ratio2_end>
       <ratio3_start>0</ratio3_start>
       <ratio3_end>0</ratio3_end>
       <ratio4_start>0</ratio4_start>
@@ -224,7 +225,7 @@
       <hdrexpnum>1</hdrexpnum>
       <model_index>0</model_index>
     </model_search>
-
+    
     <model_search>
       <lux_start>400</lux_start>
       <lux_end>450</lux_end>
@@ -253,6 +254,8 @@
     </model_search>
     
 
+
+
     <model_search>
       <lux_start>0</lux_start>
       <lux_end>400</lux_end>
@@ -261,7 +264,7 @@
       <hdrexpnum>1</hdrexpnum>
       <model_index>2</model_index>
     </model_search>
-
+    
     <model_search>
       <lux_start>400</lux_start>
       <lux_end>450</lux_end>
@@ -287,9 +290,11 @@
       <adrc_end>11</adrc_end>
       <hdrexpnum>1</hdrexpnum>
       <model_index>4</model_index>
-    </model_search>
+    </model_search>  
 
-  
+
+
+
     <model_search>
       <lux_start>0</lux_start>
       <lux_end>1000</lux_end>
@@ -299,14 +304,15 @@
       <model_index>4</model_index>
     </model_search>
 
+
     <model>
       <model_index>0</model_index>
       <lux_start>0</lux_start>
       <lux_end>400</lux_end>
       <hdrexpnum>1</hdrexpnum>
-      <phone_version>M2</phone_version>
-      <model_version>m2_4k_rggb_normal_new_v54d_clip4080_tfqat_snpe231_1152_2048_quantized</model_version>
-      <model_name>m2_4k_rggb_normal_new_v54d_clip4080_tfqat_snpe231_1152_2048_quantized.dlc</model_name>
+      <phone_version>M3</phone_version>
+      <model_version>m3_4k_bggr_normal_new_v54d_clip4080_tfqat_snpe231_1232_2192_quantized</model_version>
+      <model_name>m3_4k_bggr_normal_new_v54d_clip4080_tfqat_snpe231_1232_2192_quantized.dlc</model_name>
       <model_bit_length>8</model_bit_length>
       <model_input_name>Placeholder:0</model_input_name>
       <model_output_name>DepthToSpace:0</model_output_name>
@@ -315,7 +321,7 @@
       <clip_max>4080</clip_max>
       <quant_scale_input>0.0010417344747111201286315917968750000000</quant_scale_input>
       <quant_offset>-146</quant_offset>
-      <quant_scale>0.0003825611202046275138854980468750000000</quant_scale>
+      <quant_scale>0.0005560753634199500083923339843750000000</quant_scale>
     </model>
 
     <model>
@@ -323,9 +329,9 @@
       <lux_start>400</lux_start>
       <lux_end>450</lux_end>
       <hdrexpnum>1</hdrexpnum>
-      <phone_version>M2</phone_version>
-      <model_version>m2_4k_rggb_normal_new_v54d_clip2040_tfqat_snpe231_1152_2048_quantized</model_version>
-      <model_name>m2_4k_rggb_normal_new_v54d_clip2040_tfqat_snpe231_1152_2048_quantized.dlc</model_name>
+      <phone_version>M3</phone_version>
+      <model_version>m3_4k_bggr_normal_new_v54d_clip2040_tfqat_snpe231_1232_2192_quantized</model_version>
+      <model_name>m3_4k_bggr_normal_new_v54d_clip2040_tfqat_snpe231_1232_2192_quantized.dlc</model_name>
       <model_bit_length>8</model_bit_length>
       <model_input_name>Placeholder:0</model_input_name>
       <model_output_name>DepthToSpace:0</model_output_name>
@@ -333,8 +339,8 @@
       <quant_enable>1</quant_enable>
       <clip_max>2040</clip_max>
       <quant_scale_input>0.0005208672373555600643157958984375000000</quant_scale_input>
-      <quant_offset>-148</quant_offset>
-      <quant_scale>0.0003381510323379188776016235351562500000</quant_scale>
+      <quant_offset>-140</quant_offset>
+      <quant_scale>0.0004279863496776670217514038085937500000</quant_scale>
     </model>
 
     <model>
@@ -342,9 +348,9 @@
       <lux_start>450</lux_start>
       <lux_end>500</lux_end>
       <hdrexpnum>1</hdrexpnum>
-      <phone_version>M2</phone_version>
-      <model_version>m2_4k_rggb_normal_new_v54d_clip1020_tfqat_snpe231_1152_2048_quantized</model_version>
-      <model_name>m2_4k_rggb_normal_new_v54d_clip1020_tfqat_snpe231_1152_2048_quantized.dlc</model_name>
+      <phone_version>M3</phone_version>
+      <model_version>m3_4k_bggr_normal_new_v54d_clip1020_tfqat_snpe231_1232_2192_quantized</model_version>
+      <model_name>m3_4k_bggr_normal_new_v54d_clip1020_tfqat_snpe231_1232_2192_quantized.dlc</model_name>
       <model_bit_length>8</model_bit_length>
       <model_input_name>Placeholder:0</model_input_name>
       <model_output_name>DepthToSpace:0</model_output_name>
@@ -352,8 +358,8 @@
       <quant_enable>1</quant_enable>
       <clip_max>1020</clip_max>
       <quant_scale_input>0.0002604336186777800321578979492187500000</quant_scale_input>
-      <quant_offset>-148</quant_offset>
-      <quant_scale>0.0002705994411371648311614990234375000000</quant_scale>
+      <quant_offset>-136</quant_offset>
+      <quant_scale>0.0003211665607523173093795776367187500000</quant_scale>
     </model>
 
     <model>
@@ -361,9 +367,9 @@
       <lux_start>500</lux_start>
       <lux_end>1000</lux_end>
       <hdrexpnum>1</hdrexpnum>
-      <phone_version>M2</phone_version>
-      <model_version>m2_4k_rggb_normal_new_v54d_clip510_tfqat_snpe231_1152_2048_quantized</model_version>
-      <model_name>m2_4k_rggb_normal_new_v54d_clip510_tfqat_snpe231_1152_2048_quantized.dlc</model_name>
+      <phone_version>M3</phone_version>
+      <model_version>m3_4k_bggr_normal_new_v54d_clip510_tfqat_snpe231_1232_2192_quantized</model_version>
+      <model_name>m3_4k_bggr_normal_new_v54d_clip510_tfqat_snpe231_1232_2192_quantized.dlc</model_name>
       <model_bit_length>8</model_bit_length>
       <model_input_name>Placeholder:0</model_input_name>
       <model_output_name>DepthToSpace:0</model_output_name>
@@ -371,8 +377,8 @@
       <quant_enable>1</quant_enable>
       <clip_max>510</clip_max>
       <quant_scale_input>0.0001302168093388900160789489746093750000</quant_scale_input>
-      <quant_offset>-150</quant_offset>
-      <quant_scale>0.0002005302812904119491577148437500000000</quant_scale>
+      <quant_offset>-130</quant_offset>
+      <quant_scale>0.0002246266667498275637626647949218750000</quant_scale>
     </model>
 
 
@@ -381,9 +387,9 @@
       <lux_start>0</lux_start>
       <lux_end>1000</lux_end>
       <hdrexpnum>2</hdrexpnum>
-      <phone_version>M2</phone_version>
-      <model_version>m2_4k_rggb_hdr_low_new_v54d_clip255_tfqat_snpe231_1152_2048_quantized</model_version>
-      <model_name>m2_4k_rggb_hdr_low_new_v54d_clip255_tfqat_snpe231_1152_2048_quantized.dlc</model_name>
+      <phone_version>M3</phone_version>
+      <model_version>m3_4k_bggr_hdr_new_v54d_clip255_tfqat_snpe231_1232_2192_quantized</model_version>
+      <model_name>m3_4k_bggr_hdr_new_v54d_clip255_tfqat_snpe231_1232_2192_quantized.dlc</model_name>
       <model_bit_length>8</model_bit_length>
       <model_input_name>Placeholder:0</model_input_name>
       <model_output_name>DepthToSpace:0</model_output_name>
@@ -391,10 +397,9 @@
       <quant_enable>1</quant_enable>
       <clip_max>255</clip_max>
       <quant_scale_input>0.0000651084046694450080394744873046875000</quant_scale_input>
-      <quant_offset>-135</quant_offset>
-      <quant_scale>0.0000773559877416118979454040527343750000</quant_scale>
+      <quant_offset>-131</quant_offset>
+      <quant_scale>0.0000828808406367897987365722656250000000</quant_scale>
     </model>
-
 
   </modelSetting>
 

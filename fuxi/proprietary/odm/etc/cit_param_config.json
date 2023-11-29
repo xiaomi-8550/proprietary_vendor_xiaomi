@@ -1,6 +1,6 @@
 {
     "version": "1.0",
-    "product": "nuwa",
+    "product": "fuxi",
     "testitems": [
         {
             "name": "home_version_info_test",
@@ -141,12 +141,7 @@
         },
         {
             "name": "home_sensor_gyroscope_test",
-            "caption": "陀螺仪感应器测试",
-            "config": {
-                "timeout_threshold_config": "10",
-                "times_of_timeout_config": "5",
-                "acquisition_frequnency_config": "416"
-            }
+            "caption": "陀螺仪感应器测试"
         },
         {
             "name": "home_sensor_magnetic_test",
@@ -155,10 +150,6 @@
         {
             "name": "home_sensor_proximity_test",
             "caption": "距离感应器测试"
-        },
-        {
-            "name": "home_sensor_pressure_test",
-            "caption": "压力感应器测试"
         },
         {
             "name": "home_sensor_flick_test",
@@ -207,7 +198,7 @@
                 "battery_chip_ok_path_config": "/sys/class/qcom-battery/chip_ok",
                 "battery_autnentic_path_config": "/sys/class/qcom-battery/authentic",
                 "support_dual_connector": true,
-                "battery_dual_connector_path_config": "/sys/class/qcom-battery/bq2597x_slave_battery_present"
+                "battery_dual_connector_path_config": "/sys/class/qcom-battery/battcont_online"
             }
         },
         {
@@ -257,9 +248,9 @@
                         "sar_sensors_config":[
                                 {
                                     "sar_sensor_id": 33171016,
-                                    "sar_chanel_total_num": 12,
-                                    "need_check_set_config": [0, 3, 6, 9],
-                                    "threshold_check_data_config": ["-150, 300,10000,150000","-100000, 10000,-100000, 10000","-150, 300,4000,150000","-100000, 10000,-100000, 10000"]
+                                    "sar_chanel_total_num": 16,
+                                    "need_check_set_config": [0,6],
+                                    "threshold_check_data_config": ["-150, 300,25000,150000","-150, 300,4000,100000"]
                                 }
                         ]
                     },
@@ -270,9 +261,9 @@
                         "sar_sensors_config":[
                                 {
                                     "sar_sensor_id": 33171016,
-                                    "sar_chanel_total_num": 12,
-                                    "need_check_set_config": [0, 3, 6, 9],
-                                    "threshold_check_data_config": ["-150, 300,10000,150000","-100000, 10000,-100000, 10000","-150, 300,4000,150000","-100000, 10000,-100000, 10000"]
+                                    "sar_chanel_total_num": 16,
+                                    "need_check_set_config": [0,6],
+                                    "threshold_check_data_config": ["-150, 300,25000,150000","-150, 300,4000,100000"]
                                 }
                             ]
                     }
@@ -307,8 +298,7 @@
             "name": "wlan_sniffer_tool_test",
             "caption": "WLAN抓包测试工具"
         },
-
-        {
+	{
             "name": "proximity_sensor_cali",
             "caption": "距离感应器校准"
         },
@@ -354,9 +344,9 @@
                             "sar_sensors_config":[
                                 {
                                     "sar_sensor_id": 33171016,
-                                    "sar_chanel_total_num": 12,
-                                    "need_check_set_config": [0, 3, 6, 9],
-                                    "threshold_check_data_config": ["-150, 300,10000,150000","-100000, 10000,-100000, 10000","-150, 300,4000,150000","-100000, 10000,-100000, 10000"]
+                                    "sar_chanel_total_num": 16,
+                                    "need_check_set_config": [0,6],
+                                    "threshold_check_data_config": ["-150, 300,25000,150000","-150, 300,4000,100000"]
                                 }
                             ]
                         }
@@ -368,9 +358,9 @@
                             "sar_sensors_config":[
                                 {
                                     "sar_sensor_id": 33171016,
-                                    "sar_chanel_total_num": 12,
-                                    "need_check_set_config": [0, 3, 6, 9],
-                                    "threshold_check_data_config": ["-150, 300,10000,150000","-100000, 10000,-100000, 10000","-150, 300,4000,150000","-100000, 10000,-100000, 10000"]
+                                    "sar_chanel_total_num": 16,
+                                    "need_check_set_config": [0,6],
+                                    "threshold_check_data_config": ["-150, 300,25000,150000","-150, 300,4000,100000"]
                                 }
                             ]
                         }
@@ -386,21 +376,23 @@
             "name": "query_cust_img_version",
             "caption": "CUST_IMG版本检测工具"
         }
+
     ],
     "autoTestItems": [
     {
-      "name": "auto_test_battery_charge_logger",
-      "caption": "自动化测试拷贝充电日志",
-      "config": {
-        "battery_charge_logger_path_config_a": "/data/vendor/bsplog/charge/charge_logger/charge_logger_a.csv",
-        "battery_charge_logger_path_config_b": "/data/vendor/bsplog/charge/charge_logger/charge_logger_b.csv"
-      }
+        "name": "auto_test_battery_charge_logger",
+        "caption": "自动化测试拷贝充电日志",
+        "config": {
+            "battery_charge_logger_path_config_a": "/data/vendor/bsplog/charge/charge_logger/charge_logger_a.csv",
+            "battery_charge_logger_path_config_b": "/data/vendor/bsplog/charge/charge_logger/charge_logger_b.csv"
+        }
     },
     {
       "name": "auto_test_battery_dual_connector",
       "caption": "自动化测试电池双连接器",
       "config": {
-        "battery_dual_connector_path_config": "/sys/class/qcom-battery/bq2597x_slave_battery_present"
+        "battery_dual_connector_path_config": "/sys/class/qcom-battery/battcont_online",
+	"battery_chip_ok_path_config":"/sys/class/qcom-battery/chip_ok"
       }
     },
  {

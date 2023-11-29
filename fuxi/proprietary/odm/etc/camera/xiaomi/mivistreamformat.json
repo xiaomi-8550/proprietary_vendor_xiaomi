@@ -41,12 +41,11 @@ format: (refer to: system/core/include/system/graphics-base-vx.x.h)
                         "format" : [37]
                     }
                 ],
-                "FovCropZoomRatio" : 1.1216,
                 "XCFASnapshotThreshold": [
-                    {"xcfaShortGain"    : 8.0},
-                    {"xcfaLuxIndex"     : 270.0},
+                    {"xcfaShortGain"    : 10.0},
+                    {"xcfaLuxIndex"     : 310.0},
                     {"xcfaAdrcGain"     : 3.5},
-                    {"xcfaDarkRatio"    : 0.75},
+                    {"xcfaDarkRatio"    : 0.1},
                     {"flashModeSingle"  : 1},
                     {"flashModeTorch"   : 2}
                 ]
@@ -68,94 +67,7 @@ format: (refer to: system/core/include/system/graphics-base-vx.x.h)
                         "format" : [37]
                     }
                 ],
-                "FakeSatZoomStart" : 10.0,
-                "FakeSatZoomStop" : 150.0,
-                "FakeSatLuxIndex" : 65536.0,
-                "FakeSatShortGain" : 5.0,
-                "FakeSatAdrcGain" : 100.0,
-                "FakeSatImageSizes":[
-                    {
-                        "FrameRatio" : 1.00,
-                        "ImageSizes" : [
-                            {
-                                "type" : 1,
-                                "width" : 1920,
-                                "height" : 1920
-                            },
-                            {
-                                "type" : 2,
-                                "width" : 1920,
-                                "height" : 1920
-                            },
-                            {
-                                "type" : 3,
-                                "width" : 3072,
-                                "height" : 3072
-                            }
-                       ]
-                    },
-                    {
-                        "FrameRatio" : 1.33,
-                        "ImageSizes" : [
-                            {
-                                "type" : 1,
-                                "width" : 2560,
-                                "height" : 1920
-                            },
-                            {
-                                "type" : 2,
-                                "width" : 2560,
-                                "height" : 1920
-                            },
-                            {
-                                "type" : 3,
-                                "width" : 4080,
-                                "height" : 3072
-                            }
-                       ]
-                    },
-                    {
-                        "FrameRatio" : 1.77,
-                        "ImageSizes" : [
-                            {
-                                "type" : 1,
-                                "width" : 2560,
-                                "height" : 1440
-                            },
-                            {
-                                "type" : 2,
-                                "width" : 2560,
-                                "height" : 1440
-                            },
-                            {
-                                "type" : 3,
-                                "width" : 4080,
-                                "height" : 2296
-                            }
-                       ]
-                    },
-                    {
-                        "FrameRatio" : 2.22,
-                        "ImageSizes" : [
-                            {
-                                "type" : 1,
-                                "width" : 2560,
-                                "height" : 1152
-                            },
-                            {
-                                "type" : 2,
-                                "width" : 2560,
-                                "height" : 1152
-                            },
-                            {
-                                "type" : 3,
-                                "width" : 4080,
-                                "height" : 1836
-                            }
-                       ]
-                    }
-                ],
-                "FovCropZoomRatio" : 1.1221,
+                "FovCropZoomRatio" : 1.1204,
                 "XCFASnapshotThreshold": [
                     {"xcfaShortGain"    : 2.0},
                     {"xcfaLuxIndex"     : 230.0},

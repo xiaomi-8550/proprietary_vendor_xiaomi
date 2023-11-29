@@ -1,7 +1,7 @@
 #if there is any change, please modify the commiter and modification time when submitting
 commiter: 'chenyifei'
 timestamp: '202112272011'
-product_name: "M2"
+product_name: "M3"
 platform: 'qcom'
 
 trigger_param:

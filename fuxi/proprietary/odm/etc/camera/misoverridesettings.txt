@@ -7,4 +7,3 @@ MISv3DisableOIS=0
 MISv2DisableOIS=0
 MISV2InputImageDataDumpEnabled=0
 MISV3InputImageDataDumpEnabled=0
-MISV2UltraZoomThreshold=5.0

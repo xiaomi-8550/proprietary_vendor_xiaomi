@@ -3,74 +3,14 @@
   "NodesList": {
     "Node": [
       {
-        "NodeName": "com.xiaomi.plugin.arcsoftsll",
-        "NodeInstance": "ArcsoftSLLInstance0",
-        "InputFormat": "RAW16",
-        "OutputFormat": "RAW16",
-        "NodeProperty":[
-          {
-              "NodePropertyName":"NodeMask",
-              "NodePropertyValue":16
-          }
-        ]
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.mialgoellc",
-        "NodeInstance": "MiAlgoELLCInstance0",
-        "InputFormat": "RAW16",
-        "OutputFormat": "RAW16",
-        "NodeProperty":[
-          {
-              "NodePropertyName":"NodeMask",
-              "NodePropertyValue":16
-          }
-        ]
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.offlinepostproc",
-        "NodeInstance": "OfflineStatsTintlessInstance0",
-        "InputFormat": "RAW16",
-        "OutputFormat": "RAW16",
-        "NodeProperty":[
-          {
-              "NodePropertyName":"NodeMask",
-              "NodePropertyValue":1
-          }
-        ]
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.offlinepostproc",
-        "NodeInstance": "OfflineStatsAWBIdealInstance0",
-        "InputFormat": "RAW16",
-        "OutputFormat": "RAW16",
-        "NodeProperty":[
-          {
-              "NodePropertyName":"NodeMask",
-              "NodePropertyValue":1
-          }
-        ]
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.offlinepostproc",
-        "NodeInstance": "IdealRaw2YuvInstance0",
-        "InputFormat": "RAW16",
+        "NodeName": "com.xiaomi.plugin.depurple",
+        "NodeInstance": "DepurpleInstance0",
+        "InputFormat": "YUV420_NV12",
         "OutputFormat": "YUV420_NV12",
         "NodeProperty":[
           {
               "NodePropertyName":"NodeMask",
-              "NodePropertyValue":4
-          }
-        ]
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.offlinepostproc",
-        "NodeInstance": "BayerRaw2YuvInstance0",
-        "InputFormat": "RAW16",
-        "OutputFormat": "YUV420_NV12",
-        "NodeProperty":[
-          {
-              "NodePropertyName":"NodeMask",
-              "NodePropertyValue":4
+              "NodePropertyValue":1
           }
         ]
       },
@@ -87,14 +27,26 @@
         ]
       },
       {
-        "NodeName": "com.xiaomi.plugin.depurple",
-        "NodeInstance": "DepurpleInstance0",
-        "InputFormat": "YUV420_NV12",
+        "NodeName": "com.xiaomi.plugin.arcsoftsll",
+        "NodeInstance": "ArcsoftSLLInstance0",
+        "InputFormat": "RAW16",
+        "OutputFormat": "RAW16",
+        "NodeProperty":[
+          {
+              "NodePropertyName":"NodeMask",
+              "NodePropertyValue":16
+          }
+        ]
+      },
+      {
+        "NodeName": "com.xiaomi.plugin.offlinepostproc",
+        "NodeInstance": "IdealRaw2YuvInstance0",
+        "InputFormat": "RAW16",
         "OutputFormat": "YUV420_NV12",
         "NodeProperty":[
           {
               "NodePropertyName":"NodeMask",
-              "NodePropertyValue":1
+              "NodePropertyValue":4
           }
         ]
       },
@@ -116,7 +68,7 @@
         "DstPort": {
           "PortId": 0,
           "NodeInstance": "ArcsoftSLLInstance0"
-        }
+          }
       },
       {
         "SrcPort": {
@@ -125,36 +77,6 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "MiAlgoELLCInstance0"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "MiAlgoELLCInstance0"
-        },
-        "DstPort": {
-          "PortId": 0,
-          "NodeInstance": "OfflineStatsTintlessInstance0"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "OfflineStatsTintlessInstance0"
-        },
-        "DstPort": {
-          "PortId": 0,
-          "NodeInstance": "OfflineStatsAWBIdealInstance0"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "OfflineStatsAWBIdealInstance0"
-        },
-        "DstPort": {
-          "PortId": 0,
           "NodeInstance": "IdealRaw2YuvInstance0"
         }
       },
@@ -165,28 +87,18 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "BayerRaw2YuvInstance0"
-        }
+          "NodeInstance": "PortraitRepairInstance0"
+          }
       },
       {
         "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "BayerRaw2YuvInstance0"
-        },
-        "DstPort": {
-          "PortId": 0,
-          "NodeInstance": "PortraitRepairInstance0"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance": "PortraitRepairInstance0"
+            "PortId": 0,
+            "NodeInstance": "PortraitRepairInstance0"
         },
         "DstPort": {
           "PortId": 0,
           "NodeInstance": "DepurpleInstance0"
-        }
+          }
       },
       {
         "SrcPort": {
