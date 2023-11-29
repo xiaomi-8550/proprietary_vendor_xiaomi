@@ -37,7 +37,7 @@
         "StructDofNorm": {
           "maxAbnorRat": 0.01,
           "minAbnorRat": 0.01,
-          "backDist": 9,
+          "backDist": 10,
           "foreDistRat": 30
         },
         "StructDofNight": {
@@ -63,10 +63,10 @@
       },
       "StructRadius": {
         "StructRadiusNorm": {
-          "backLeve": 0.9,
+          "backLeve": 0.32,
           "foreLeve":0.2,
           "apeRat": 0.95,
-          "backGam": 1.9,
+          "backGam": 2.0,
           "foreGam": 2,
           "a_slope": 0.006,
           "b_inter": -1.8
@@ -96,8 +96,8 @@
         "StructHdr":{
           "paramIsoThre": 50,
           "paramMinBrig": 200,
-          "paramEnhanRat": 10,
-          "paramEvMinBrig":140,
+          "paramEnhanRat": 20,
+          "paramEvMinBrig":50,
           "paramIsEnhanColor": 0
         },
         "StructSe":{
@@ -202,7 +202,7 @@
       },
       "StructRadius": {
         "StructRadiusNorm": {
-          "backLeve": 1.8,
+          "backLeve": 0.3,
           "foreLeve": 0.2,
           "apeRat": 2.2,
           "backGam": 2.0,
@@ -236,7 +236,7 @@
           "paramIsoThre": 50,
           "paramMinBrig": 200,
           "paramEnhanRat": 20,
-          "paramEvMinBrig":140,
+          "paramEvMinBrig":100,
           "paramIsEnhanColor": 0
         },
         "StructSe":{
@@ -315,7 +315,7 @@
         "StructDofNorm": {
           "maxAbnorRat": 0.01,
           "minAbnorRat": 0.01,
-          "backDist": 4,
+          "backDist": 12,
           "foreDistRat": 20
         },
         "StructDofNight": {
@@ -341,10 +341,10 @@
       },
       "StructRadius": {
         "StructRadiusNorm": {
-          "backLeve":0.48,
+          "backLeve":0.24,
           "foreLeve": 0.2,
           "apeRat": 1.4,
-          "backGam": 0.9,
+          "backGam": 1.2,
           "foreGam": 2,
           "a_slope": 0,
           "b_inter": 1.0
@@ -374,8 +374,8 @@
         "StructHdr":{
           "paramIsoThre": 50,
           "paramMinBrig": 200,
-          "paramEnhanRat": 10,
-          "paramEvMinBrig":140,
+          "paramEnhanRat": 20,
+          "paramEvMinBrig":50,
           "paramIsEnhanColor": 0
         },
         "StructSe":{
@@ -507,8 +507,8 @@
         "StructHdr":{
           "paramIsoThre": 50,
           "paramMinBrig": 200,
-          "paramEnhanRat": 10,
-          "paramEvMinBrig":140,
+          "paramEnhanRat": 20,
+          "paramEvMinBrig":50,
           "paramIsEnhanColor": 0
         },
         "StructSe":{

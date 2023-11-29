@@ -5,7 +5,7 @@
   },
   "sns_amd": {
     "owner": "sns_amd",
-    "enabled": {"ver": "2","type": "int", "data": "0"
+    "enabled": {"ver": "0","type": "int", "data": "0"
     }
   }
 }

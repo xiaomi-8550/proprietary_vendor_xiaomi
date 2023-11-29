@@ -28,8 +28,8 @@
       "dri_irq_num":{ "type": "int", "ver": "0",
         "data": "84"
       },
-      "irq_pull_type":{ "type": "int", "ver": "0",
-        "data": "2"
+      "irq_pull_type":{ "type": "int", "ver": "1",
+        "data": "0"
       },
       "irq_is_chip_pin":{ "type": "int", "ver": "0",
         "data": "1"
@@ -65,10 +65,10 @@
         "data": "-x"
       },
       "y":{ "type": "str", "ver": "4",
-        "data": "+y"
+        "data": "-y"
       },
-      "z":{ "type": "str", "ver": "4",
-        "data": "-z"
+      "z":{ "type": "str", "ver": "2",
+        "data": "+z"
       }
     },
     ".gyro":{

@@ -13,8 +13,8 @@
                 "BufferLimitCnt": 12,
                 "VendorSnapshotBufferQueueSize": 30,
                 "FlushWaitTimeMs": 4000,
-                // 0001 1111 0110, 0x1F6, vendorMfnr/burst/hdr/sr/hdrsr/rawhdr/sn
-                "FeatureMask" : 502,
+                // 0001 1111 0110, 0x1F6, 0x3F6 vendorMfnr/burst/hdr/sr/hdrsr/rawhdr/sn/fakesat
+                "FeatureMask" : 1014,
                 "StreamConfig": [
                     // normal yuv stream of ultra wide
                     {
@@ -96,6 +96,17 @@
                         "format": 32,
                         "usage": 3,
                         "dataSpace": 146931712
+                    },
+                    // special yuv stream of tele for fakesat stream usecase 0x10001
+                    {
+                        "roleId": 20,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "stream_use_case": 65537,
+                        "dataSpace": 146931712,
+                        "isFakeSat": true
                     }
                 ]
             },
@@ -217,9 +228,9 @@
                 "BufferLimitCnt": 12,
                 "VendorSnapshotBufferQueueSize": 28,
                 "FlushWaitTimeMs": 300,
-                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 // 0001 0000 0010, 0x102, vendorMfnr/sn
                 "FeatureMask" : 258,
+                "SupportFovCropCameras": [0, 20], // RoleId: RoleIdRearWide, RoleIdRearTele
                 "StreamConfig": [
                     // yuv stream for mfnr
                     {
@@ -276,9 +287,9 @@
                 "Signature": "SuperHD",
                 "BufferLimitCnt": 1,
                 "FlushWaitTimeMs":4000,
-                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 // 0010, 0x2, vendorMfnr
                 "FeatureMask" : 2,
+                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 "StreamConfig": [
                     // yuv stream for remosiac full size
                     {
@@ -310,9 +321,9 @@
                 "Signature": "ManualSuperHD",
                 "BufferLimitCnt": 1,
                 "FlushWaitTimeMs": 4000,
-                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 // 0010, 0x2, vendorMfnr
                 "FeatureMask" : 2,
+                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 "StreamConfig": [
                     // yuv stream for remosiac full size
                     {
@@ -344,9 +355,9 @@
                 "Signature": "Professional",
                 "BufferLimitCnt": 1,
                 "FlushWaitTimeMs": 4000,
-                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 // 0010, 0x2, vendorMfnr
                 "FeatureMask" : 2,
+                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 "StreamConfig": [
                     // yuv stream
                     {
@@ -371,6 +382,7 @@
                 "FlushWaitTimeMs": 4000,
                 // 0010, 0x2, vendorMfnr
                 "FeatureMask" : 2,
+                "SupportFovCropCameras": [20], // RoleId: RoleIdRearTele
                 "StreamConfig": [
                     // yuv stream
                     {

@@ -7,12 +7,6 @@
             "NodeInstance": "BurstJpegInstance0",
             "InputFormat": "YUV420_NV12",
             "OutputFormat": "BLOB"
-        },
-        {
-            "NodeName": "com.xiaomi.plugin.ldc",
-            "NodeInstance": "LDCInstance0",
-            "InputFormat": "YUV420_NV12",
-            "OutputFormat": "YUV420_NV12"
         }
       ]
     },
@@ -22,16 +16,6 @@
             "SrcPort": {
                 "PortId": 0,
                 "NodeInstance": "SourceBuffer"
-            },
-            "DstPort": {
-                "PortId": 0,
-                "NodeInstance": "LDCInstance0"
-            }
-        },
-        {
-            "SrcPort": {
-                "PortId": 0,
-                "NodeInstance": "LDCInstance0"
             },
             "DstPort": {
                 "PortId": 0,

@@ -24,7 +24,13 @@
             "NodeName": "com.xiaomi.plugin.offlinepostproc",
             "NodeInstance": "BayerRaw2YuvInstance1",
             "InputFormat": "RAW16",
-            "OutputFormat": "YUV420_NV12"
+            "OutputFormat": "YUV420_NV12",
+			"NodeProperty":[
+			  {
+				  "NodePropertyName":"NodeMask",
+				  "NodePropertyValue":12
+			  }
+			  ]
       },
       {
           "NodeName": "com.xiaomi.plugin.capdepth",
