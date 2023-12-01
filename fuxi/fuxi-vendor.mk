@@ -1001,7 +1001,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.coeff:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.coeff \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.mem:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.mem \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.prog \
-    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/st_fts_m2.ftb \
+    vendor/xiaomi/fuxi/proprietary/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m2.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/st_fts_m3.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m3.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
