@@ -1414,6 +1414,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/vendor/lib64/hw/fingerprint.goodix_fod6.default.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/vendor/lib64/hw/fingerprint.goodix_fod6.default.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libAF.so:$(TARGET_COPY_OUT_ODM)/lib64/libAF.so \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/lib64/libAF.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/lib64/libAF.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libHISCppAlgos.so:$(TARGET_COPY_OUT_ODM)/lib64/libHISCppAlgos.so \
