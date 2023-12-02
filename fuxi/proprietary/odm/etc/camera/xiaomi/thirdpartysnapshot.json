@@ -91,16 +91,16 @@
                 "PortId": 0,
                 "NodeInstance": "SrInstance0"
             },
-                "DstPort": {
-                    "PortId": 0,
-                    "NodeInstance": "YuvReprocessInstance0"
-                }
-            },
+            "DstPort": {
+                "PortId": 0,
+                "NodeInstance": "YuvReprocessInstance0"
+            }
+        },
         {
             "SrcPort": {
                 "PortId": 0,
                 "NodeInstance": "YuvReprocessInstance0"
-        },
+            },
             "DstPort": {
                 "PortId": 0,
                 "NodeInstance": "HDRInstance0"

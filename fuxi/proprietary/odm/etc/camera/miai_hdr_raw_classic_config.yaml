@@ -53,8 +53,8 @@ algo_deghost_config:
 algo_denoise_config:
   use_denoise_for_high_gain: true
   uw_ai_denoise_totalgain_thresh: 4.0
-  wide_ai_denoise_totalgain_thresh: 4.0
-  uw_denoise_before_totalgain_thresh: 4.0
+  wide_ai_denoise_totalgain_thresh: 5.0
+  uw_denoise_before_totalgain_thresh: 256.0
   wide_denoise_before_totalgain_thresh: 256.0
 
 algo_merge_config:
@@ -166,6 +166,11 @@ algo_merge_config:
       lux_th_l: 100
       hist_th_l: 0.1
       hist_th_h: 0.15
+    Lighten_brighten:
+      luxindex_th_outdoor: 200
+      ev0_overexp_th: 0.1
+      luxindex_th_indoor: 250
+      lighten_by_midmap: true
     Linear_control:
       thre_h: 0.5
       thre_l: 0.4
@@ -176,10 +181,10 @@ algo_merge_config:
       mul_ratio: 1.0
       minus_ratio: 1.0
     dehalo: 
-      th_selfie: 0
-      th_u1b: 100
-      diff_hi: 120
-      diff_lo: -10
+      lux_th_l: 170
+      bright_th_l: 120
+      lux_th_h: 200
+      bright_th_h: 160
     highlight_suppress:
       scale1_clip_h: 0.05
       scale1_clip_l: 0.03

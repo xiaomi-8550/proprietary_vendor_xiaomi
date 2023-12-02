@@ -9,6 +9,12 @@
                 "OutputFormat": "YUV420_NV12"
             },
             {
+                "NodeName": "com.xiaomi.plugin.gpu",
+                "NodeInstance": "GpuInstance0",
+                "InputFormat": "YUV420_NV12",
+                "OutputFormat": "YUV420_NV12"
+            },
+            {
                 "NodeName": "com.xiaomi.plugin.portraitrepair",
                 "NodeInstance": "PortraitRepairInstance0",
                 "InputFormat": "YUV420_NV12",
@@ -23,12 +29,6 @@
             {
                 "NodeName": "com.xiaomi.plugin.tsskinbeautifier",
                 "NodeInstance": "SkinBeautifierInstance",
-                "InputFormat": "YUV420_NV12",
-                "OutputFormat": "YUV420_NV12"
-            },
-            {
-                "NodeName": "com.xiaomi.plugin.gpu",
-                "NodeInstance": "GpuInstance0",
                 "InputFormat": "YUV420_NV12",
                 "OutputFormat": "YUV420_NV12"
             }

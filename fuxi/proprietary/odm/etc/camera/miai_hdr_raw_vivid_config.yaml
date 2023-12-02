@@ -53,8 +53,8 @@ algo_deghost_config:
 algo_denoise_config:
   use_denoise_for_high_gain: true
   uw_ai_denoise_totalgain_thresh: 4.0
-  wide_ai_denoise_totalgain_thresh: 4.0
-  uw_denoise_before_totalgain_thresh: 4.0
+  wide_ai_denoise_totalgain_thresh: 5.0
+  uw_denoise_before_totalgain_thresh: 256.0
   wide_denoise_before_totalgain_thresh: 256.0
 
 algo_merge_config:
@@ -150,152 +150,6 @@ algo_merge_config:
       type: 'normal'
       scale: 1.0
     ev0_face_gain: 1.0
-    ev0_face_decay_th: 170
-    HA_control: 1
-    Lowlight_lux_thre: 240
-    Lowlight_h_thre: 0.3
-    fusion_sec_thre_l: 220
-    fusion_sec_thre_h: 350
-    fusion_sec_thre_gain: 60
-    collapse:
-      suppress_ground: 0
-      mix_ev0: 1
-      mix_ev0_th: 260
-      portrait_th: 30
-    Lighten_2nd_fusion:
-      face_map_absdiff_min: 5.0
-      face_map_absdiff_max: 8.5
-    second_fusion_portrait_lighten:
-      highlight_bin: 220
-      portrait_oe_ratio: 0.001
-      luxindex_th: 150
-    Lighten_sky:
-      is_lighten: 1
-      lux_th_h: 160
-      lux_th_l: 100
-      hist_th_l: 0.1
-      hist_th_h: 0.15
-      cloudy_lux_th: 180
-      cloudy_vs_hist_th: 0.999
-    Linear_control:
-      thre_h: 0.5
-      thre_l: 0.4
-    clhe:   
-      up_thre: 1.1       
-      low_thre: 0.9      
-    y_linear_adjust:
-      mul_ratio: 1.0
-      minus_ratio: 1.0
-    dehalo: 
-      max_ev0_oe_area: 0.05
-      lux_index: 320
-      th_selfie: 0
-      th_u1b: 100
-      diff_hi: 120
-      diff_lo: -10
-    highlight_suppress:
-      scale1_clip_h: 0.05
-      scale1_clip_l: 0.03
-      scale1_pow: 0.9
-      suppress_gain: 40
-      s_layer: 0
-      indoor_layer_adj:
-        ev0_oe_ratio_th: 0.09
-        evn8_oe_ratio_th: 0.001
-        luxindex_th: 200
-    dark_area_boost:
-      dark_boost_node: 30
-      dark_boost_l: 0
-      dark_boost_m: 2
-      dark_boost_h: 2
-      dark_boost_thre_l: 100
-      dark_boost_thre_m: 200
-    saturation_boost:
-      bright_area_boost: 0.5
-      middle_area_boost: 0.5
-      dark_area_boost: 0.5
-  uw:
-    portrait:
-      y_lut0:
-        left_node: 118
-        right_node: 118
-        sigma_left: 36
-        sigma_right: 36      
-        type: 'rightmax' 
-        scale: 1.0      
-      y_lut1:
-        left_node: 128
-        right_node: 128
-        sigma_left: 36
-        sigma_right: 36
-        type: 'normal' 
-        scale: 1.0
-      y_lut2:
-        left_node: 128
-        right_node: 128
-        sigma_left: 36
-        sigma_right: 36
-        type: 'normal'
-        scale: 1.0
-      y_lut3:
-        left_node: 108
-        right_node: 108
-        sigma_left: 36
-        sigma_right: 36
-        type: 'leftmax'
-        scale: 1.0
-    non_portrait:
-      y_lut0:
-        left_node: 118
-        right_node: 118
-        sigma_left: 28
-        sigma_right: 28      
-        type: 'rightmax' 
-        scale: 1.0      
-      y_lut1:
-        left_node: 128
-        right_node: 128
-        sigma_left: 28
-        sigma_right: 28
-        type: 'normal' 
-        scale: 1.0
-      y_lut2:
-        left_node: 128
-        right_node: 128
-        sigma_left: 28
-        sigma_right: 28
-        type: 'normal'
-        scale: 1.0
-      y_lut3:
-        left_node: 138
-        right_node: 138
-        sigma_left: 40
-        sigma_right: 40
-        type: 'leftmax'
-        scale: 1.0    
-    uv_lut0:
-      left_node: 76
-      right_node: 76
-      sigma_left: 64
-      sigma_right: 64
-      type: 'normal'
-      scale: 1.0
-    uv_lut1:
-      left_node: 128
-      right_node: 128
-      sigma_left: 64
-      sigma_right: 64
-      type: 'normal'
-      scale: 1.0
-    uv_lut_new:
-      left_node: 60
-      right_node: 190
-      sigma_left: 14
-      sigma_right: 14
-      type: 'normal'
-      scale: 1.0
-    ev0_face_gain: 1.0
-    ev0_face_decay_th: 170
     HA_control: 1
     Lowlight_lux_thre: 240
     Lowlight_h_thre: 0.3
@@ -313,6 +167,11 @@ algo_merge_config:
       lux_th_l: 100
       hist_th_l: 0.1
       hist_th_h: 0.15
+    Lighten_brighten:
+      luxindex_th_outdoor: 200
+      ev0_overexp_th: 0.1
+      luxindex_th_indoor: 250
+      lighten_by_midmap: true
     Linear_control:
       thre_h: 0.5
       thre_l: 0.4
@@ -334,8 +193,7 @@ algo_merge_config:
       suppress_gain: 40
       s_layer: 0
     dark_area_boost:
-      dark_boost_node: 45
-      dark_boost_l: 5
+      dark_boost_l: 0
       dark_boost_m: 2
       dark_boost_h: 2
       dark_boost_thre_l: 100

@@ -15,8 +15,10 @@
             ]
         },
         {
-            "NodeName": "com.xiaomi.plugin.memcpy",
-            "NodeInstance": "MemcpyInstance0"
+            "NodeName": "com.xiaomi.plugin.ldc",
+            "NodeInstance": "LDCInstance0",
+            "InputFormat": "YUV420_NV12",
+            "OutputFormat": "YUV420_NV12"
         }
       ]
     },
@@ -39,13 +41,13 @@
             },
             "DstPort": {
                 "PortId": 0,
-                "NodeInstance": "MemcpyInstance0"
+                "NodeInstance": "LDCInstance0"
             }
         },
         {
             "SrcPort": {
                 "PortId": 0,
-                "NodeInstance": "MemcpyInstance0"
+                "NodeInstance": "LDCInstance0"
             },
             "DstPort": {
                 "PortId": 0,
@@ -55,4 +57,3 @@
         ]
     }
   }
-  

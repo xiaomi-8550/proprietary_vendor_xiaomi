@@ -4,7 +4,7 @@
     <blockWidth>32</blockWidth>
 	<blockHeight>32</blockHeight>
 	<frameNumToSave>3</frameNumToSave>
-	<downsampleFactor>4</downsampleFactor>
+	<downsampleFactor>2</downsampleFactor>
   </commonSetting>
   
   <hdr>
@@ -119,44 +119,44 @@
   </nightview>
 
   <dxo_nightview_0 feature="wide_default" enable="true">
-      <dxo_nightview_extreme_dark_lux>360.0</dxo_nightview_extreme_dark_lux>
+      <dxo_nightview_extreme_dark_lux>385.0</dxo_nightview_extreme_dark_lux>
       <dxo_nightview_noface_param>
             <dxo_nightview_lux_range1>
                   <se_lux_index_start>275</se_lux_index_start>
-                  <se_light>25</se_light>
-                  <se_bright_ratio_thresh>0.014</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.13</se_dark_ratio_thresh>
+                  <se_light>21</se_light>
+                  <se_bright_ratio_thresh>0.008</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.18</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.55</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>315</se_lux_index_start>
-                  <se_light>20</se_light>
-                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.13</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
+                  <se_lux_index_start>320</se_lux_index_start>
+                  <se_light>16</se_light>
+                  <se_bright_ratio_thresh>0.009</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.18</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.48</se_middle_ratio_thresh>
             </dxo_nightview_lux_range2>
             <dxo_nightview_lux_range3>
-                  <se_lux_index_start>360</se_lux_index_start>
-                  <se_light>20</se_light>
-                  <se_bright_ratio_thresh>0.002</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.04</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
+                  <se_lux_index_start>355</se_lux_index_start>
+                  <se_light>13</se_light>
+                  <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.25</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.47</se_middle_ratio_thresh>
             </dxo_nightview_lux_range3>
       </dxo_nightview_noface_param>
       <dxo_nightview_face_param>
             <dxo_nightview_lux_range1>
                   <se_lux_index_start>280</se_lux_index_start>
-                  <se_light>18</se_light>
-                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.05</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.47</se_middle_ratio_thresh>
+                  <se_light>21</se_light>
+                  <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.09</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.5</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>340</se_lux_index_start>
-                  <se_light>20</se_light>
-                  <se_bright_ratio_thresh>0.004</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.08</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.67</se_middle_ratio_thresh>
+                  <se_lux_index_start>335</se_lux_index_start>
+                  <se_light>18</se_light>
+                  <se_bright_ratio_thresh>0.006</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.12</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
             </dxo_nightview_lux_range2>
       </dxo_nightview_face_param>
   </dxo_nightview_0>
@@ -205,40 +205,40 @@
   </dxo_nightview_1>
 
   <dxo_nightview_2 feature="uw" enable="true">
-      <dxo_nightview_extreme_dark_lux>435.0</dxo_nightview_extreme_dark_lux>
+      <dxo_nightview_extreme_dark_lux>410.0</dxo_nightview_extreme_dark_lux>
       <dxo_nightview_noface_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>310</se_lux_index_start>
-                  <se_light>26</se_light>
-                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
+                  <se_lux_index_start>290</se_lux_index_start>
+                  <se_light>21</se_light>
+                  <se_bright_ratio_thresh>0.004</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.21</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.5</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>360</se_lux_index_start>
+                  <se_lux_index_start>340</se_lux_index_start>
                   <se_light>12</se_light>
-                  <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.21</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.45</se_middle_ratio_thresh>
+                  <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.23</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.54</se_middle_ratio_thresh>
             </dxo_nightview_lux_range2>
             <dxo_nightview_lux_range3>
-                  <se_lux_index_start>395</se_lux_index_start>
+                  <se_lux_index_start>375</se_lux_index_start>
                   <se_light>10</se_light>
-                  <se_bright_ratio_thresh>0.002</se_bright_ratio_thresh>
+                  <se_bright_ratio_thresh>0.008</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.24</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.42</se_middle_ratio_thresh>
+                  <se_middle_ratio_thresh>0.44</se_middle_ratio_thresh>
             </dxo_nightview_lux_range3>
       </dxo_nightview_noface_param>
       <dxo_nightview_face_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>315</se_lux_index_start>
+                  <se_lux_index_start>295</se_lux_index_start>
                   <se_light>21</se_light>
-                  <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.08</se_dark_ratio_thresh>
+                  <se_bright_ratio_thresh>0.012</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.30</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.5</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>375</se_lux_index_start>
+                  <se_lux_index_start>355</se_lux_index_start>
                   <se_light>14</se_light>
                   <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.1</se_dark_ratio_thresh>
@@ -248,61 +248,60 @@
   </dxo_nightview_2>
 
   <dxo_nightview_3 feature="tele" enable="true">
-      <dxo_nightview_extreme_dark_lux>405.0</dxo_nightview_extreme_dark_lux>
+      <dxo_nightview_extreme_dark_lux>410.0</dxo_nightview_extreme_dark_lux>
       <dxo_nightview_noface_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>280</se_lux_index_start>
-                  <se_light>35</se_light>
-                  <se_bright_ratio_thresh>0.014</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.13</se_dark_ratio_thresh>
+                  <se_lux_index_start>285</se_lux_index_start>
+                  <se_light>26</se_light>
+                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.21</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.55</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>320</se_lux_index_start>
-                  <se_light>30</se_light>
-                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.13</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
+                  <se_lux_index_start>335</se_lux_index_start>
+                  <se_light>15</se_light>
+                  <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.36</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.45</se_middle_ratio_thresh>
             </dxo_nightview_lux_range2>
             <dxo_nightview_lux_range3>
-                  <se_lux_index_start>365</se_lux_index_start>
-                  <se_light>25</se_light>
-                  <se_bright_ratio_thresh>0.002</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.14</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
+                  <se_lux_index_start>370</se_lux_index_start>
+                  <se_light>11</se_light>
+                  <se_bright_ratio_thresh>0.009</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.24</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.45</se_middle_ratio_thresh>
             </dxo_nightview_lux_range3>
       </dxo_nightview_noface_param>
       <dxo_nightview_face_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>330</se_lux_index_start>
-                  <se_light>30</se_light>
-                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.05</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.57</se_middle_ratio_thresh>
+                  <se_lux_index_start>290</se_lux_index_start>
+                  <se_light>21</se_light>
+                  <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.08</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.5</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>345</se_lux_index_start>
-                  <se_light>24</se_light>
-                  <se_bright_ratio_thresh>0.004</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.03</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.67</se_middle_ratio_thresh>
+                  <se_lux_index_start>350</se_lux_index_start>
+                  <se_light>14</se_light>
+                  <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.1</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.64</se_middle_ratio_thresh>
             </dxo_nightview_lux_range2>
       </dxo_nightview_face_param>
   </dxo_nightview_3>
-
   <dxo_nightview_4 feature="bokeh" enable="true">
-      <dxo_nightview_extreme_dark_lux>375.0</dxo_nightview_extreme_dark_lux>
+      <dxo_nightview_extreme_dark_lux>365.0</dxo_nightview_extreme_dark_lux>
       <dxo_nightview_noface_param>
             <dxo_nightview_lux_range1>
                   <se_lux_index_start>325</se_lux_index_start>
-                  <se_light>20</se_light>
+                  <se_light>9</se_light>
                   <se_bright_ratio_thresh>0.008</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.17</se_dark_ratio_thresh>
+                  <se_dark_ratio_thresh>0.4</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.4</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
                   <se_lux_index_start>800</se_lux_index_start>
-                  <se_light>12</se_light>
+                  <se_light>11</se_light>
                   <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.36</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.45</se_middle_ratio_thresh>
@@ -317,15 +316,15 @@
       </dxo_nightview_noface_param>
       <dxo_nightview_face_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>320</se_lux_index_start>
-                  <se_light>19</se_light>
+                  <se_lux_index_start>305</se_lux_index_start>
+                  <se_light>14</se_light>
                   <se_bright_ratio_thresh>0.003</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.08</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.66</se_middle_ratio_thresh>
+                  <se_dark_ratio_thresh>0.15</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
                   <se_lux_index_start>800</se_lux_index_start>
-                  <se_light>14</se_light>
+                  <se_light>13</se_light>
                   <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.1</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.64</se_middle_ratio_thresh>
@@ -334,40 +333,40 @@
   </dxo_nightview_4>
 
   <dxo_nightview_5 feature="bokeh_2x" enable="true">
-      <dxo_nightview_extreme_dark_lux>360.0</dxo_nightview_extreme_dark_lux>
+      <dxo_nightview_extreme_dark_lux>410</dxo_nightview_extreme_dark_lux>
       <dxo_nightview_noface_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>330</se_lux_index_start>
-                  <se_light>10</se_light>
-                  <se_bright_ratio_thresh>0.008</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.3</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.4</se_middle_ratio_thresh>
+                  <se_lux_index_start>285</se_lux_index_start>
+                  <se_light>26</se_light>
+                  <se_bright_ratio_thresh>0.005</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.21</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.55</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>800</se_lux_index_start>
-                  <se_light>12</se_light>
+                  <se_lux_index_start>335</se_lux_index_start>
+                  <se_light>15</se_light>
                   <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.36</se_dark_ratio_thresh>
                   <se_middle_ratio_thresh>0.45</se_middle_ratio_thresh>
             </dxo_nightview_lux_range2>
             <dxo_nightview_lux_range3>
-                  <se_lux_index_start>800</se_lux_index_start>
-                  <se_light>10</se_light>
+                  <se_lux_index_start>370</se_lux_index_start>
+                  <se_light>11</se_light>
                   <se_bright_ratio_thresh>0.009</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.24</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.42</se_middle_ratio_thresh>
+                  <se_middle_ratio_thresh>0.45</se_middle_ratio_thresh>
             </dxo_nightview_lux_range3>
       </dxo_nightview_noface_param>
       <dxo_nightview_face_param>
             <dxo_nightview_lux_range1>
-                  <se_lux_index_start>310</se_lux_index_start>
-                  <se_light>14</se_light>
-                  <se_bright_ratio_thresh>0.003</se_bright_ratio_thresh>
-                  <se_dark_ratio_thresh>0.12</se_dark_ratio_thresh>
-                  <se_middle_ratio_thresh>0.6</se_middle_ratio_thresh>
+                  <se_lux_index_start>290</se_lux_index_start>
+                  <se_light>21</se_light>
+                  <se_bright_ratio_thresh>0.01</se_bright_ratio_thresh>
+                  <se_dark_ratio_thresh>0.08</se_dark_ratio_thresh>
+                  <se_middle_ratio_thresh>0.5</se_middle_ratio_thresh>
             </dxo_nightview_lux_range1>
             <dxo_nightview_lux_range2>
-                  <se_lux_index_start>800</se_lux_index_start>
+                  <se_lux_index_start>350</se_lux_index_start>
                   <se_light>14</se_light>
                   <se_bright_ratio_thresh>0.007</se_bright_ratio_thresh>
                   <se_dark_ratio_thresh>0.1</se_dark_ratio_thresh>
@@ -451,17 +450,17 @@
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
         <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>        
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>        
   </hdr_trigger_0>
 
   <hdr_trigger_1 feature="uw" enable="true">
         <hdr_dead_dark_thres>10</hdr_dead_dark_thres>
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
-        <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
+        <hdr_dead_dark_ratio_thres>0.05</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>        
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>        
   </hdr_trigger_1>
 
   <hdr_trigger_2 feature="tele" enable="true">
@@ -469,17 +468,17 @@
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
         <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>        
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>        
   </hdr_trigger_2>
 
   <hdr_trigger_3 feature="front" enable="true">
         <hdr_dead_dark_thres>10</hdr_dead_dark_thres>
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
-        <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
-        <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>        
+        <hdr_dead_dark_ratio_thres>0.05</hdr_dead_dark_ratio_thres>
+        <hdr_over_exp_ratio_thres>0.2</hdr_over_exp_ratio_thres>
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>                
   </hdr_trigger_3>
 
   <hdr_trigger_4 feature="bokeh1x" enable="true">
@@ -487,8 +486,8 @@
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
         <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres> 
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>                
   </hdr_trigger_4>
 
   <hdr_trigger_5 feature="bokeh2x" enable="true">
@@ -496,8 +495,8 @@
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
         <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>  
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>                
   </hdr_trigger_5>
 
   <hdr_trigger_6 feature="wide_low_version" enable="true">
@@ -505,8 +504,8 @@
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
         <hdr_dead_dark_ratio_thres>0.09</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.02</hdr_over_exp_ratio_thres>
-        <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>
+        <hdr_dead_centerdark_ratio_thres>1.1</hdr_dead_centerdark_ratio_thres>
+        <hdr_over_centerexp_ratio_thres>1.1</hdr_over_centerexp_ratio_thres>                
   </hdr_trigger_6>
 
   <hdr_default>
@@ -519,7 +518,7 @@
   <snsc_trigger>
         <snsc_motion_intensity_thres>20</snsc_motion_intensity_thres>
         <snsc_lux_idx_start>290</snsc_lux_idx_start>
-        <snsc_lux_idx_end>350</snsc_lux_idx_end>
+        <snsc_lux_idx_end>400</snsc_lux_idx_end>
         <snsc_factor_delay_enable>1</snsc_factor_delay_enable>
         <snsc_delay_v0>15</snsc_delay_v0>
         <snsc_delay_fin>3</snsc_delay_fin>
@@ -532,7 +531,7 @@
   <indoors_no_se>
         <indoors_no_se_enable>1</indoors_no_se_enable>
         <indoors_no_se_start_lux>240</indoors_no_se_start_lux>
-        <indoors_no_se_end_lux>360</indoors_no_se_end_lux>
+        <indoors_no_se_end_lux>380</indoors_no_se_end_lux>
         <indoors_no_se_thres>1.2</indoors_no_se_thres>
   </indoors_no_se>
 
