@@ -983,6 +983,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/evass.b19:$(TARGET_COPY_OUT_ODM)/firmware/evass.b19 \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/evass.mbn:$(TARGET_COPY_OUT_ODM)/firmware/evass.mbn \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/evass.mdt:$(TARGET_COPY_OUT_ODM)/firmware/evass.mdt \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/film_model.tflite \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/fuxi_imx800_bu24721_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/fuxi_imx800_bu24721_ois.coeff \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/fuxi_imx800_bu24721_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/fuxi_imx800_bu24721_ois.mem \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/fuxi_imx800_bu24721_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/fuxi_imx800_bu24721_ois.prog \
@@ -995,6 +996,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/fuxi_s5k3k1_bu24721_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/fuxi_s5k3k1_bu24721_ois.coeff \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/fuxi_s5k3k1_bu24721_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/fuxi_s5k3k1_bu24721_ois.mem \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/fuxi_s5k3k1_bu24721_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/fuxi_s5k3k1_bu24721_ois.prog \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/glove_model.tflite \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.coeff:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.coeff \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.mem:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.mem \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.prog \
@@ -1005,6 +1007,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/st_fts_m3.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m3.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/firmware/water_check.tflite \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so \
@@ -1695,6 +1698,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/lib64/libsupermoon.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/lib64/libsupermoon.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_ODM)/lib64/libswregistrationalgo.so \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/lib64/libswregistrationalgo.so \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/lib64/libtensorflowlite_c.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtfestriping.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfestriping.so \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/lib64/libtfestriping.so:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/lib64/libtfestriping.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtida@1.2.so:$(TARGET_COPY_OUT_ODM)/lib64/libtida@1.2.so \
