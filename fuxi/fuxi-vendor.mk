@@ -554,8 +554,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/fuxi/proprietary/odm/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak991x_dri_0.json \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/kailua_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kailua_qsh_ble_0.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/lightSensorConfig.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/lightSensorConfig.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/lsm6dso_0.json \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/qsh_ble.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/qsh_ble.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/qsh_camera.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/qsh_camera.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sm8550_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sm8550_ak991x_0.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sm8550_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sm8550_bmi26x_0.json \
@@ -593,6 +595,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_oem13.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_oem13.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_oem_pocket.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_oem_pocket.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_pedometer.json \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_pointing_light_source.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_pointing_light_source.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_rmd.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_rotv.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/sns_sar_algo.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_sar_algo.json \
