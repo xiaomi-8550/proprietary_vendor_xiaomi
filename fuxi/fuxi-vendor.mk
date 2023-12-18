@@ -15,10 +15,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/bin/mlipayd@1.1:$(TARGET_COPY_OUT_ODM)/bin/mlipayd@1.1 \
     vendor/xiaomi/fuxi/proprietary/odm/bin/mtd@1.3:$(TARGET_COPY_OUT_ODM)/bin/mtd@1.3 \
     vendor/xiaomi/fuxi/proprietary/odm/bin/tidad@1.2:$(TARGET_COPY_OUT_ODM)/bin/tidad@1.2 \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/touch_raw:$(TARGET_COPY_OUT_ODM)/bin/touch_raw \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/touch_report:$(TARGET_COPY_OUT_ODM)/bin/touch_report \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/toucheventcheck:$(TARGET_COPY_OUT_ODM)/bin/toucheventcheck \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/touchsensor:$(TARGET_COPY_OUT_ODM)/bin/touchsensor \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/bin/touch_raw:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/bin/touch_raw \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/bin/touch_report:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/bin/touch_report \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/bin/toucheventcheck:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/bin/toucheventcheck \
+    vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/bin/touchsensor:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/bin/touchsensor \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb \
     vendor/xiaomi/fuxi/proprietary/odm/overlay/nuwa/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/overlay/nuwa/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp \
     vendor/xiaomi/fuxi/proprietary/odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb \
