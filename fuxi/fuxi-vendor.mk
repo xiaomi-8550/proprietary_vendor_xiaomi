@@ -1011,6 +1011,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/overlayfs/nuwa/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/odm/firmware/st_fts_m2.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/st_fts_m3.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m3.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
+    vendor/xiaomi/fuxi/proprietary/odm/overlayfs/nuwa/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/odm/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
     vendor/xiaomi/fuxi/proprietary/odm/overlayfs/nuwa/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/odm/firmware/water_check.tflite \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so \
@@ -2268,6 +2269,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/chre_dynamic_sensors.json \
+    vendor/xiaomi/fuxi/proprietary/odm/overlayfs/nuwa/vendor/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/vendor/etc/sensors/config/chre_dynamic_sensors.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
