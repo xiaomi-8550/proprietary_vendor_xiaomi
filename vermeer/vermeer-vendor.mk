@@ -7,10 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/vermeer/proprietary/odm/bin/hw/vendor.qti.camera.provider-service_64:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.camera.provider-service_64 \
-    vendor/xiaomi/vermeer/proprietary/odm/bin/touch_raw:$(TARGET_COPY_OUT_ODM)/bin/touch_raw \
-    vendor/xiaomi/vermeer/proprietary/odm/bin/touch_report:$(TARGET_COPY_OUT_ODM)/bin/touch_report \
-    vendor/xiaomi/vermeer/proprietary/odm/bin/toucheventcheck:$(TARGET_COPY_OUT_ODM)/bin/toucheventcheck \
-    vendor/xiaomi/vermeer/proprietary/odm/bin/touchsensor:$(TARGET_COPY_OUT_ODM)/bin/touchsensor \
     vendor/xiaomi/vermeer/proprietary/odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb \
     vendor/xiaomi/vermeer/proprietary/odm/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp \
     vendor/xiaomi/vermeer/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
