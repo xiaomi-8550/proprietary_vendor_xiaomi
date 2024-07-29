@@ -516,12 +516,3 @@ prebuilt_etc_xml {
 	device_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "vendor.xiaomi.sensor.communicate@1.0_manifest",
-	owner: "xiaomi",
-	src: "proprietary/odm/etc/vintf/manifest/vendor.xiaomi.sensor.communicate@1.0_manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	device_specific: true,
-}
-
