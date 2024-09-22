@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter fuxi nuwa ishtar vermeer,$(TARGET_DEVICE)),)
+ifneq ($(filter fuxi nuwa ishtar vermeer sheng,$(TARGET_DEVICE)),)
 
 endif
