@@ -8,10 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/ishtar/proprietary/odm/bin/hw/vendor.qti.camera.provider-service_64:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.camera.provider-service_64 \
     vendor/xiaomi/ishtar/proprietary/odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service \
-    vendor/xiaomi/ishtar/proprietary/odm/bin/touch_raw:$(TARGET_COPY_OUT_ODM)/bin/touch_raw \
-    vendor/xiaomi/ishtar/proprietary/odm/bin/touch_report:$(TARGET_COPY_OUT_ODM)/bin/touch_report \
-    vendor/xiaomi/ishtar/proprietary/odm/bin/toucheventcheck:$(TARGET_COPY_OUT_ODM)/bin/toucheventcheck \
-    vendor/xiaomi/ishtar/proprietary/odm/bin/touchsensor:$(TARGET_COPY_OUT_ODM)/bin/touchsensor \
     vendor/xiaomi/ishtar/proprietary/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_acdb_cal.acdb \
     vendor/xiaomi/ishtar/proprietary/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp \
     vendor/xiaomi/ishtar/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
@@ -676,8 +672,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/T-music.txt:$(TARGET_COPY_OUT_ODM)/firmware/T-music.txt \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_ODM)/firmware/cs35l41-dsp1-spk-cali.wmfw \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_ODM)/firmware/cs35l41-dsp1-spk-prot.wmfw \
-    vendor/xiaomi/ishtar/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
-    vendor/xiaomi/ishtar/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/ishtar_tele3x_bu24721_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/ishtar_tele3x_bu24721_ois.coeff \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/ishtar_tele3x_bu24721_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/ishtar_tele3x_bu24721_ois.mem \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/ishtar_tele3x_bu24721_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/ishtar_tele3x_bu24721_ois.prog \
@@ -689,7 +683,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/st_fts_m1.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m1.ftb \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/ishtar/proprietary/odm/firmware/stmvl53l5.bin:$(TARGET_COPY_OUT_ODM)/firmware/stmvl53l5.bin \
-    vendor/xiaomi/ishtar/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
     vendor/xiaomi/ishtar/proprietary/odm/lib/rfsa/adsp/libaisupernight_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaisupernight_cdsp_skel.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib/rfsa/adsp/libaisupernight_ellc_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaisupernight_ellc_cdsp_skel.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so \
@@ -1033,7 +1026,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libssccalapi@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libssccalapi@2.0.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libsupermoon.so:$(TARGET_COPY_OUT_ODM)/lib64/libsupermoon.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_ODM)/lib64/libswregistrationalgo.so \
-    vendor/xiaomi/ishtar/proprietary/odm/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_ODM)/lib64/libtensorflowlite_c.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libtfestriping.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfestriping.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libubifocus.so:$(TARGET_COPY_OUT_ODM)/lib64/libubifocus.so \
     vendor/xiaomi/ishtar/proprietary/odm/lib64/libvideoBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideoBokeh.so \
